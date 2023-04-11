@@ -1,6 +1,6 @@
 # Installing the Command Line Developer Tools on macOS 12.6.3 [Vagrant: Development Environments Made Easy]
 
-https://youtu.be/cYC_8WW6WrA
+https://youtu.be/ovX__bk2sIw
 
 ## Transcript
 
@@ -29,7 +29,7 @@ Now the command line developer tools, part of Apple's Xcode IDE, are installing.
 
 The command line developer tools contain many useful executables, including git. In addition to the value it provides directly, git is also needed to install Homebrew and run installs with Homebrew.
 
-git can also be installed via Homebrew, but we need git in order to install Homebrew. This creates a problem--at least at this stage.
+git can also be installed via Homebrew, but we need git in order to install Homebrew. This approach isn't going to work--at least not at this stage.
 
 Of course, we can always build git from source. Doing so requires we have the needed build toolchain. An easy way to get that is to install the command line developer tools.
 
