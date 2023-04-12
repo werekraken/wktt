@@ -1,0 +1,101 @@
+1
+00:00:01,120 --> 00:00:04,630
+Here we have a
+fresh install of macOS 12.6.3.
+
+2
+00:00:05,630 --> 00:00:08,360
+First, we want to ensure
+that our environment is up-to-date.
+
+3
+00:00:10,810 --> 00:00:12,330
+The basic environment is.
+
+4
+00:00:14,030 --> 00:00:16,330
+Let's install
+the command line developer tools.
+
+5
+00:00:18,270 --> 00:00:21,060
+Click the install button
+on the gui prompt to move forward.
+
+6
+00:00:22,540 --> 00:00:25,720
+Read the license agreement
+and click agree if you so choose.
+
+7
+00:00:26,570 --> 00:00:31,480
+Now the command line developer tools,
+part of Apple's Xcode IDE, are installing.
+
+8
+00:00:33,450 --> 00:00:37,600
+The command line developer tools contain
+many useful executables, including git.
+
+9
+00:00:39,510 --> 00:00:41,710
+In addition to the value
+it provides directly,
+
+10
+00:00:41,711 --> 00:00:45,630
+git is also needed to install Homebrew
+and run installs with Homebrew.
+
+11
+00:00:47,330 --> 00:00:49,540
+git can also
+be installed via Homebrew,
+
+12
+00:00:49,541 --> 00:00:52,120
+but we need git
+in order to install Homebrew.
+
+13
+00:00:52,360 --> 00:00:55,060
+This approach isn't going to work--
+at least not at this stage.
+
+14
+00:00:56,510 --> 00:00:58,750
+Of course, we can always
+build git from source.
+
+15
+00:00:59,270 --> 00:01:01,840
+Doing so requires we
+have the needed build toolchain.
+
+16
+00:01:02,270 --> 00:01:05,660
+An easy way to get that is to install
+the command line developer tools.
+
+17
+00:01:06,930 --> 00:01:10,420
+Notice a pattern here--
+when using macOS,
+
+18
+00:01:10,421 --> 00:01:12,870
+you'll likely want to install
+the command line developer tools.
+
+19
+00:01:15,180 --> 00:01:16,600
+Let's validate our install.
+
+20
+00:01:24,600 --> 00:01:27,870
+And more importantly, let's validate
+one of the installed executables.
+
+21
+00:01:28,930 --> 00:01:29,660
+Looks good.

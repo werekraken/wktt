@@ -1,0 +1,57 @@
+1
+00:00:01,390 --> 00:00:04,540
+Here we have a
+fresh install of Ubuntu 22.04.
+
+2
+00:00:06,570 --> 00:00:09,360
+Our first step is to ensure
+that the environment is up-to-date.
+
+3
+00:00:12,450 --> 00:00:16,090
+It is. Let's
+install vagrant and VirtualBox.
+
+4
+00:00:20,420 --> 00:00:24,000
+VirtualBox is a well-known,
+cross-platform hypervisor
+
+5
+00:00:24,003 --> 00:00:28,300
+and provides a virtualization platform
+upon which vagrant can run machines.
+
+6
+00:00:32,330 --> 00:00:36,180
+vagrant calls the virtualization platforms
+it can use providers.
+
+7
+00:00:40,240 --> 00:00:43,120
+VirtualBox happens to be
+vagrant's default provider
+
+8
+00:00:43,123 --> 00:00:45,780
+making it arguably
+the easiest way to get started.
+
+9
+00:00:49,180 --> 00:00:51,180
+vagrant supports
+several other providers,
+
+10
+00:00:51,183 --> 00:00:53,720
+either natively
+or through installable plugins.
+
+11
+00:00:57,420 --> 00:00:59,180
+Time for some basic validation.
+
+12
+00:01:03,060 --> 00:01:04,660
+And the installation looks good.
