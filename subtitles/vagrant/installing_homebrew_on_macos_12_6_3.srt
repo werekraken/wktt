@@ -1,0 +1,128 @@
+1
+00:00:02,030 --> 00:00:07,060
+Here we have macOS 12.6.3 with the
+command line developer tools installed.
+
+2
+00:00:09,210 --> 00:00:11,660
+First, we want to ensure
+that our environment is up-to-date.
+
+3
+00:00:14,120 --> 00:00:15,600
+The basic environment is.
+
+4
+00:00:17,330 --> 00:00:20,540
+Let's install Homebrew, which is
+quite accurately described as
+
+5
+00:00:20,541 --> 00:00:22,840
+"The Missing
+Package Manager for macOS."
+
+6
+00:00:24,870 --> 00:00:28,180
+The simple installation instructions
+over at https://brew.sh
+
+7
+00:00:28,181 --> 00:00:32,120
+suggest running bash on the output
+of a curl to a well-known github domain.
+
+8
+00:00:34,120 --> 00:00:35,720
+Even though
+I have reasonable confidence
+
+9
+00:00:35,721 --> 00:00:38,390
+that the code
+and platforms involved are legitimate,
+
+10
+00:00:38,391 --> 00:00:39,660
+I won't use this.
+
+11
+00:00:41,540 --> 00:00:44,090
+First, the download
+isn't validated.
+
+12
+00:00:45,330 --> 00:00:48,840
+Second, there isn't a reliable
+way to audit what actually ran.
+
+13
+00:00:50,720 --> 00:00:53,300
+Instead, I'll clone
+the Homebrew install project--
+
+14
+00:00:54,900 --> 00:00:58,720
+the git checkout process will both
+ensure the integrity of install.sh
+
+15
+00:00:58,721 --> 00:01:02,240
+and place it on-disk,
+permitting future examination if desired.
+
+16
+00:01:04,360 --> 00:01:05,390
+And now I'll run it.
+
+17
+00:01:08,540 --> 00:01:12,600
+Homebrew makes it easy to install
+many tools not included with macOS.
+
+18
+00:01:14,360 --> 00:01:16,540
+A thriving community
+which maintains
+
+19
+00:01:16,541 --> 00:01:19,600
+thousands of package definitions
+covers most common needs.
+
+20
+00:01:21,180 --> 00:01:25,060
+Package definitions come in two forms,
+providing quite a bit of flexibility.
+
+21
+00:01:26,840 --> 00:01:30,210
+A formula builds and
+installs an upstream source project.
+
+22
+00:01:32,000 --> 00:01:35,780
+A cask installs a project's
+pre-built application binaries.
+
+23
+00:01:37,750 --> 00:01:40,630
+Nowadays, both types are
+accessible using `brew install`.
+
+24
+00:01:42,900 --> 00:01:45,480
+Homebrew simply makes
+life on macOS easier
+
+25
+00:01:45,481 --> 00:01:46,900
+and is well worth the install.
+
+26
+00:01:47,810 --> 00:01:49,420
+Let's check our installation.
+
+27
+00:01:50,150 --> 00:01:51,210
+And looks good.
