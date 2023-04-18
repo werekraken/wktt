@@ -30,4 +30,13 @@
     <td><p>📜 <a href="../transcripts/vagrant/installing_homebrew_on_macos_12.md"><b>Transcript</b></a></p></td>
     <td><p>🗨 <a href="../subtitles/vagrant/installing_homebrew_on_macos_12.srt"><b>Subtitles</b></a></p></td>
   </tr>
+  <tr>
+    <td><p><b>4.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=XFLLaApEV40">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/XFLLaApEV40/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Installing Vagrant on macOS 12</b></p></td>
+    <td><p>📜 <a href="../transcripts/vagrant/installing_vagrant_on_macos_12.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨  <a href="../subtitles/vagrant/installing_vagrant_on_macos_12.srt"><b>Subtitles</b></a></p></td>
+  </tr>
 </table>
