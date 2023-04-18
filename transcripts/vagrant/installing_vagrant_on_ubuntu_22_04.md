@@ -1,6 +1,6 @@
 # Installing Vagrant on Ubuntu 22.04 [Vagrant: Development Environments Made Easy]
 
-https://www.youtube.com/watch?v=9iNBgqvWcoko
+https://www.youtube.com/watch?v=9iNBgqvWcok
 
 ## Transcript
 

@@ -1,6 +1,6 @@
 # Installing the Command Line Developer Tools on macOS 12.6.3 [Vagrant: Development Environments Made Easy]
 
-https://youtu.be/ovX__bk2sIw
+https://www.youtube.com/watch?v=ovX__bk2sIw
 
 ## Transcript
 

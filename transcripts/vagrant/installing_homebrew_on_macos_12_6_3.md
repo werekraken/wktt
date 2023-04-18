@@ -1,6 +1,6 @@
 # Installing Homebrew on macOS 12.6.3 [Vagrant: Development Environments Made Easy]
 
-https://youtu.be/l4-lqExciQM
+https://www.youtube.com/watch?v=l4-lqExciQM
 
 ## Transcript
 
