@@ -48,4 +48,13 @@
     <td><p>📜 <a href="../transcripts/vagrant/installing_the_pswindowsupdate_powershell_module_on_windows_10.md"><b>Transcript</b></a></p></td>
     <td><p>🗨  <a href="../subtitles/vagrant/installing_the_pswindowsupdate_powershell_module_on_windows_10.srt"><b>Subtitles</b></a></p></td>
   </tr>
+  <tr>
+    <td><p><b>6.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=NonlGxFD00o">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/NonlGxFD00o/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Installing Windows Package Manager CLI (aka winget) on Windows 10</b></p></td>
+    <td><p>📜 <a href="../transcripts/vagrant/installing_windows_package_manager_cli_aka_winget_on_windows_10.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨  <a href="../subtitles/vagrant/installing_windows_package_manager_cli_aka_winget_on_windows_10.srt"><b>Subtitles</b></a></p></td>
+  </tr>
 </table>
