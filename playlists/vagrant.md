@@ -67,3 +67,17 @@
     <td><p>🗨 <a href="../subtitles/vagrant/installing_vagrant_on_windows_10.srt"><b>Subtitles</b></a></p></td>
   </tr>
 </table>
+
+## Getting Started
+
+<table>
+  <tr>
+    <td><p><b>1.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=JpI8Rtxo828">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/JpI8Rtxo828/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Your First Vagrant Managed Machine</b></p></td>
+    <td><p>📜 <a href="../transcripts/vagrant/your_first_vagrant_managed_machine.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="../subtitles/vagrant/your_first_vagrant_managed_machine.srt"><b>Subtitles</b></a></p></td>
+  </tr>
+</table>
