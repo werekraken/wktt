@@ -80,4 +80,13 @@
     <td><p>📜 <a href="../transcripts/vagrant/your_first_vagrant_managed_machine.md"><b>Transcript</b></a></p></td>
     <td><p>🗨 <a href="../subtitles/vagrant/your_first_vagrant_managed_machine.srt"><b>Subtitles</b></a></p></td>
   </tr>
+  <tr>
+    <td><p><b>2.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=ipjYKkupVTk">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/ipjYKkupVTk/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Your First Vagrant Managed Machine on Windows</b></p></td>
+    <td><p>📜 <a href="../transcripts/vagrant/your_first_vagrant_managed_machine_on_windows.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="../subtitles/vagrant/your_first_vagrant_managed_machine_on_windows.srt"><b>Subtitles</b></a></p></td>
+  </tr>
 </table>

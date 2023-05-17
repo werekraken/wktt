@@ -1,0 +1,166 @@
+1
+00:00:04,270 --> 00:00:07,750
+Here we have new installs
+of vagrant and VirtualBox.
+
+2
+00:00:12,450 --> 00:00:15,270
+Let's go through the same steps
+we just saw on Ubuntu--
+
+3
+00:00:15,271 --> 00:00:18,150
+this time using a Windows 10
+baremetal environment.
+
+4
+00:00:20,150 --> 00:00:24,000
+By doing so, we'll get to see just
+how similar the commands and outputs look,
+
+5
+00:00:24,001 --> 00:00:26,900
+even when run on a dissimilar
+baremetal environment.
+
+6
+00:00:28,690 --> 00:00:31,510
+To start using vagrant,
+we need a Vagrantfile.
+
+7
+00:00:33,420 --> 00:00:38,150
+A Vagrantfile typically lives
+in a project, often in the project root.
+
+8
+00:00:39,780 --> 00:00:43,660
+Let's create a directory called demo
+to serve as our new project root.
+
+9
+00:00:45,540 --> 00:00:47,780
+Next, we need
+a machine definition.
+
+10
+00:00:49,480 --> 00:00:52,660
+`vagrant init` makes creating
+a basic definition simple.
+
+11
+00:00:54,300 --> 00:00:58,840
+My baremental environment is Windows,
+so let's make our vm environment CentOS 7.
+
+12
+00:01:00,330 --> 00:01:01,840
+The format change
+of the prompt
+
+13
+00:01:01,841 --> 00:01:04,900
+will make it clear in which environment
+each command is run.
+
+14
+00:01:06,570 --> 00:01:09,030
+We can see a Vagrantfile
+is now present.
+
+15
+00:01:10,630 --> 00:01:12,150
+Let's spin up our machine.
+
+16
+00:01:13,570 --> 00:01:16,120
+One helpful feature
+of `vagrant up` is that
+
+17
+00:01:16,121 --> 00:01:19,570
+it automatically downloads
+the configured box if absent.
+
+18
+00:01:20,900 --> 00:01:25,450
+Another option is to use `vagrant box`
+which let's you directly manage boxes.
+
+19
+00:01:26,540 --> 00:01:31,360
+`vagrant box` includes subcommands
+such as `add`, `update`, and `remove`.
+
+20
+00:01:32,570 --> 00:01:36,600
+`vagrant box add` could have been
+used to download the centos/7 box
+
+21
+00:01:36,601 --> 00:01:38,180
+ahead of `vagrant up`.
+
+22
+00:01:39,600 --> 00:01:41,750
+In this case, we're using
+the box right away,
+
+23
+00:01:41,751 --> 00:01:43,840
+so there's no advantage
+to pre-fetching.
+
+24
+00:01:44,240 --> 00:01:47,000
+However, it's an interesting option
+to keep in mind.
+
+25
+00:01:48,630 --> 00:01:52,750
+Now that our machine is running,
+we can access it with `vagrant ssh`.
+
+26
+00:01:55,570 --> 00:01:57,630
+A quick look in /etc/
+and we can confirm
+
+27
+00:01:57,631 --> 00:02:00,510
+that this is indeed
+a CentOS 7 environment.
+
+28
+00:02:02,120 --> 00:02:04,710
+Feel free to poke around
+in this environment more now.
+
+29
+00:02:06,420 --> 00:02:08,900
+When ready to leave,
+simply logout.
+
+30
+00:02:08,901 --> 00:02:11,150
+I tend to use control-d
+to do so.
+
+31
+00:02:12,690 --> 00:02:15,600
+Finally, we use `vagrant destroy`
+to clean up.
+
+32
+00:02:19,900 --> 00:02:24,090
+That vm is now gone and the cpu,
+memory, and storage resources
+
+33
+00:02:24,091 --> 00:02:26,090
+it was consuming
+have been freed.
+
+34
+00:02:27,000 --> 00:02:27,900
+So cool.
