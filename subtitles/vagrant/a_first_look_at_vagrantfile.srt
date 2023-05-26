@@ -1,0 +1,98 @@
+1
+00:00:00,450 --> 00:00:04,360
+We're back in our demo directory
+with our centos/7 Vagrantfile.
+
+2
+00:00:06,330 --> 00:00:10,330
+The Vagrantfile produced by `vagrant init`
+comes with a lot of comments.
+
+3
+00:00:11,810 --> 00:00:14,090
+I personally don't like
+to keep these around
+
+4
+00:00:14,091 --> 00:00:17,600
+and prefer to avoid adding
+clutter of this sort to source control.
+
+5
+00:00:19,630 --> 00:00:21,270
+I'm going to remove the comments,
+
+6
+00:00:21,271 --> 00:00:24,420
+but feel free to skip or delay this step
+to take a peek at them.
+
+7
+00:00:26,630 --> 00:00:29,150
+Let's take a look
+at our remaining Vagrantfile.
+
+8
+00:00:30,900 --> 00:00:33,240
+It's pretty simple ruby code
+at the moment--
+
+9
+00:00:33,241 --> 00:00:36,120
+little more than
+setting the box to `centos/7`.
+
+10
+00:00:37,030 --> 00:00:40,210
+And we supplied that as an
+argument to `vagrant init` last time.
+
+11
+00:00:42,240 --> 00:00:43,600
+Let's make some edits.
+
+12
+00:00:44,120 --> 00:00:48,000
+I'm going to install vim to do so,
+but feel free to use any editor you like.
+
+13
+00:00:49,420 --> 00:00:52,720
+Let's add some additional cpu
+and memory resources.
+
+14
+00:00:59,060 --> 00:01:00,180
+And save that.
+
+15
+00:01:01,720 --> 00:01:03,180
+Start our machine.
+
+16
+00:01:10,090 --> 00:01:11,300
+Login.
+
+17
+00:01:13,630 --> 00:01:16,570
+We can see our cpu count
+matches what we set.
+
+18
+00:01:18,180 --> 00:01:20,450
+As does our memory--
+more or less.
+
+19
+00:01:21,120 --> 00:01:24,600
+We can get a more accurate value
+with a less common command.
+
+20
+00:01:26,090 --> 00:01:30,240
+The total online memory exactly matches
+the value we set in Vagrantfile.
+
+21
+00:01:30,840 --> 00:01:32,030
+Time to clean up.
