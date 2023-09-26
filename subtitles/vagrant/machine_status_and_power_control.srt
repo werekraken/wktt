@@ -1,0 +1,134 @@
+1
+00:00:00,660 --> 00:00:04,450
+In the real world, you'll probably have to
+set a project aside from time-to-time.
+
+2
+00:00:05,570 --> 00:00:09,750
+Sometimes this means devoting your cpu and
+memory resources to another cause.
+
+3
+00:00:11,750 --> 00:00:16,000
+The good news is that typical commands
+like `shutdown`, `halt`, and `poweroff`
+
+4
+00:00:16,001 --> 00:00:19,510
+work as expected when run inside
+a vagrant managed machine.
+
+5
+00:00:21,210 --> 00:00:24,690
+When you want the machine back up,
+you simply run `vagrant up` again.
+
+6
+00:00:26,810 --> 00:00:30,630
+Other times you may want to shutdown
+or reboot a machine you can't access,
+
+7
+00:00:30,631 --> 00:00:32,150
+rather than destroy it.
+
+8
+00:00:34,360 --> 00:00:38,240
+If you're troubleshooting a kernel panic,
+developing a config for kdump,
+
+9
+00:00:38,241 --> 00:00:41,600
+testing a newly manipulated initrd,
+or similar
+
+10
+00:00:41,601 --> 00:00:44,390
+`vagrant halt` will
+undoubtedly come in handy.
+
+11
+00:00:47,150 --> 00:00:49,600
+These options point out
+another skill we need:
+
+12
+00:00:49,601 --> 00:00:52,570
+the ability to find
+the current state of a machine.
+
+13
+00:00:54,690 --> 00:00:57,240
+We can use `vagrant status`
+to see this.
+
+14
+00:00:59,180 --> 00:01:01,660
+Right now,
+the state is "not created",
+
+15
+00:01:01,661 --> 00:01:05,090
+which makes sense since the last thing
+we did was `vagrant destroy`.
+
+16
+00:01:07,090 --> 00:01:08,360
+Let's bring up our machine.
+
+17
+00:01:15,690 --> 00:01:17,660
+Now, status shows
+that it's "running".
+
+18
+00:01:19,540 --> 00:01:22,120
+Let's log in briefly
+and create a new file.
+
+19
+00:01:27,810 --> 00:01:29,180
+Then halt the machine.
+
+20
+00:01:31,540 --> 00:01:34,420
+Another status check shows that
+it's in the "poweroff" state.
+
+21
+00:01:36,420 --> 00:01:37,840
+Let's bring our vm back up.
+
+22
+00:01:50,420 --> 00:01:52,390
+We can see
+that our file persisted.
+
+23
+00:01:53,000 --> 00:01:55,750
+This is a key difference
+between `destroy` and `halt`.
+
+24
+00:01:56,300 --> 00:01:59,600
+`destroy` doesn't persist storage
+that is exclusive to the vm.
+
+25
+00:02:00,390 --> 00:02:03,480
+`halt` doesn't free storage resources
+consumed by the vm.
+
+26
+00:02:04,510 --> 00:02:06,660
+Both are useful
+for different cases.
+
+27
+00:02:08,000 --> 00:02:08,900
+Let's clean up.
+
+28
+00:02:11,330 --> 00:02:15,900
+A final `vagrant status` and we see that
+our state has returned to "not created".

@@ -98,4 +98,13 @@
     <td><p>📜 <a href="../transcripts/vagrant/a_first_look_at_vagrantfile.md"><b>Transcript</b></a></p></td>
     <td><p>🗨 <a href="../subtitles/vagrant/a_first_look_at_vagrantfile.srt"><b>Subtitles</b></a></p></td>
   </tr>
+  <tr>
+    <td><p><b>4.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=sfxot1Nepqg">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/sfxot1Nepqg/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Machine Status and Power Control</b></p></td>
+    <td><p>📜 <a href="../transcripts/vagrant/machine_status_and_power_control.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨  <a href="../subtitles/vagrant/machine_status_and_power_control.srt"><b>Subtitles</b></a></p></td>
+  </tr>
 </table>
