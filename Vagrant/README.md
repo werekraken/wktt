@@ -9,8 +9,8 @@
       <img alt="Watch on YouTube" src="https://img.youtube.com/vi/9iNBgqvWcok/mqdefault.jpg" width="50%" />
     </a></p></td>
     <td><p><b>Installing Vagrant on Ubuntu 22.04</b></p></td>
-    <td><p>📜 <a href="../transcripts/vagrant/installing_vagrant_on_ubuntu_22_04.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="../subtitles/vagrant/installing_vagrant_on_ubuntu_22_04.srt"><b>Subtitles</b></a></p></td>
+    <td><p>📜 <a href="01.Install.01..Installing.Vagrant.on.Ubuntu.22.04/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="01.Install.01..Installing.Vagrant.on.Ubuntu.22.04/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>2.</b></p></td>
@@ -18,8 +18,8 @@
       <img alt="Watch on YouTube" src="https://img.youtube.com/vi/ovX__bk2sIw/mqdefault.jpg" width="50%" />
     </a></p></td>
     <td><p><b>Installing the Command Line Developer Tools on macOS 12</b></p></td>
-    <td><p>📜 <a href="../transcripts/vagrant/installing_the_command_line_developer_tools_on_macos_12.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="../subtitles/vagrant/installing_the_command_line_developer_tools_on_macos_12.srt"><b>Subtitles</b></a></p></td>
+    <td><p>📜 <a href="01.Install.02..Installing.the.Command.Line.Developer.Tools.on.macOS.12/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="01.Install.02..Installing.the.Command.Line.Developer.Tools.on.macOS.12/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>3.</b></p></td>
@@ -27,8 +27,8 @@
       <img alt="Watch on YouTube" src="https://img.youtube.com/vi/l4-lqExciQM/mqdefault.jpg" width="50%" />
     </a></p></td>
     <td><p><b>Installing Homebrew on macOS 12</b></p></td>
-    <td><p>📜 <a href="../transcripts/vagrant/installing_homebrew_on_macos_12.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="../subtitles/vagrant/installing_homebrew_on_macos_12.srt"><b>Subtitles</b></a></p></td>
+    <td><p>📜 <a href="01.Install.03..Installing.Homebrew.on.macOS.12/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="01.Install.03..Installing.Homebrew.on.macOS.12/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>4.</b></p></td>
@@ -36,8 +36,8 @@
       <img alt="Watch on YouTube" src="https://img.youtube.com/vi/XFLLaApEV40/mqdefault.jpg" width="50%" />
     </a></p></td>
     <td><p><b>Installing Vagrant on macOS 12</b></p></td>
-    <td><p>📜 <a href="../transcripts/vagrant/installing_vagrant_on_macos_12.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="../subtitles/vagrant/installing_vagrant_on_macos_12.srt"><b>Subtitles</b></a></p></td>
+    <td><p>📜 <a href="01.Install.04..Installing.Vagrant.on.macOS.12/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="01.Install.04..Installing.Vagrant.on.macOS.12/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>5.</b></p></td>
@@ -45,8 +45,8 @@
       <img alt="Watch on YouTube" src="https://img.youtube.com/vi/A0Gi5EL7odA/mqdefault.jpg" width="50%" />
     </a></p></td>
     <td><p><b>Installing the PSWindowsUpdate PowerShell Module on Windows 10</b></p></td>
-    <td><p>📜 <a href="../transcripts/vagrant/installing_the_pswindowsupdate_powershell_module_on_windows_10.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="../subtitles/vagrant/installing_the_pswindowsupdate_powershell_module_on_windows_10.srt"><b>Subtitles</b></a></p></td>
+    <td><p>📜 <a href="01.Install.05..Installing.the.PSWindowsUpdate.PowerShell.Module.on.Windows.10/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="01.Install.05..Installing.the.PSWindowsUpdate.PowerShell.Module.on.Windows.10/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>6.</b></p></td>
@@ -54,8 +54,8 @@
       <img alt="Watch on YouTube" src="https://img.youtube.com/vi/NonlGxFD00o/mqdefault.jpg" width="50%" />
     </a></p></td>
     <td><p><b>Installing Windows Package Manager CLI (aka winget) on Windows 10</b></p></td>
-    <td><p>📜 <a href="../transcripts/vagrant/installing_windows_package_manager_cli_aka_winget_on_windows_10.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="../subtitles/vagrant/installing_windows_package_manager_cli_aka_winget_on_windows_10.srt"><b>Subtitles</b></a></p></td>
+    <td><p>📜 <a href="01.Install.06..Installing.Windows.Package.Manager.CLI.aka.winget.on.Windows.10/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="01.Install.06..Installing.Windows.Package.Manager.CLI.aka.winget.on.Windows.10/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>7.</b></p></td>
@@ -63,8 +63,8 @@
       <img alt="Watch on YouTube" src="https://img.youtube.com/vi/WeROCNVegd4/mqdefault.jpg" width="50%" />
     </a></p></td>
     <td><p><b>Installing Vagrant on Windows 10</b></p></td>
-    <td><p>📜 <a href="../transcripts/vagrant/installing_vagrant_on_windows_10.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="../subtitles/vagrant/installing_vagrant_on_windows_10.srt"><b>Subtitles</b></a></p></td>
+    <td><p>📜 <a href="01.Install.07..Installing.Vagrant.on.Windows.10/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="01.Install.07..Installing.Vagrant.on.Windows.10/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
 </table>
 
@@ -77,8 +77,8 @@
       <img alt="Watch on YouTube" src="https://img.youtube.com/vi/JpI8Rtxo828/mqdefault.jpg" width="50%" />
     </a></p></td>
     <td><p><b>Your First Vagrant Managed Machine</b></p></td>
-    <td><p>📜 <a href="../transcripts/vagrant/your_first_vagrant_managed_machine.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="../subtitles/vagrant/your_first_vagrant_managed_machine.srt"><b>Subtitles</b></a></p></td>
+    <td><p>📜 <a href="02.Start.01..Your.First.Vagrant.Managed.Machine/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="02.Start.01..Your.First.Vagrant.Managed.Machine/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>2.</b></p></td>
@@ -86,8 +86,8 @@
       <img alt="Watch on YouTube" src="https://img.youtube.com/vi/ipjYKkupVTk/mqdefault.jpg" width="50%" />
     </a></p></td>
     <td><p><b>Your First Vagrant Managed Machine on Windows</b></p></td>
-    <td><p>📜 <a href="../transcripts/vagrant/your_first_vagrant_managed_machine_on_windows.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="../subtitles/vagrant/your_first_vagrant_managed_machine_on_windows.srt"><b>Subtitles</b></a></p></td>
+    <td><p>📜 <a href="02.Start.02..Your.First.Vagrant.Managed.Machine.on.Windows/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="02.Start.02..Your.First.Vagrant.Managed.Machine.on.Windows/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>3.</b></p></td>
@@ -95,8 +95,8 @@
       <img alt="Watch on YouTube" src="https://img.youtube.com/vi/KEGtKEmSBBk/mqdefault.jpg" width="50%" />
     </a></p></td>
     <td><p><b>A First Look at Vagrantfile</b></p></td>
-    <td><p>📜 <a href="../transcripts/vagrant/a_first_look_at_vagrantfile.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="../subtitles/vagrant/a_first_look_at_vagrantfile.srt"><b>Subtitles</b></a></p></td>
+    <td><p>📜 <a href="02.Start.03..A.First.Look.at.Vagrantfile/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="02.Start.03..A.First.Look.at.Vagrantfile/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>4.</b></p></td>
@@ -104,8 +104,8 @@
       <img alt="Watch on YouTube" src="https://img.youtube.com/vi/sfxot1Nepqg/mqdefault.jpg" width="50%" />
     </a></p></td>
     <td><p><b>Machine Status and Power Control</b></p></td>
-    <td><p>📜 <a href="../transcripts/vagrant/machine_status_and_power_control.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨  <a href="../subtitles/vagrant/machine_status_and_power_control.srt"><b>Subtitles</b></a></p></td>
+    <td><p>📜 <a href="02.Start.04..Machine.Status.and.Power.Control/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨  <a href="02.Start.04..Machine.Status.and.Power.Control/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>5.</b></p></td>
@@ -113,7 +113,7 @@
       <img alt="Watch on YouTube" src="https://img.youtube.com/vi/0hyiw9641KM/mqdefault.jpg" width="50%" />
     </a></p></td>
     <td><p><b>Finding Boxes on Vagrant Cloud</b></p></td>
-    <td><p>📜 <a href="../transcripts/vagrant/finding_boxes_on_vagrant_cloud.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨  <a href="../subtitles/vagrant/finding_boxes_on_vagrant_cloud.srt"><b>Subtitles</b></a></p></td>
+    <td><p>📜 <a href="02.Start.05..Finding.Boxes.on.Vagrant.Cloud/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨  <a href="02.Start.05..Finding.Boxes.on.Vagrant.Cloud/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
 </table>
