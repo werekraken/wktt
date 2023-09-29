@@ -1,0 +1,181 @@
+1
+00:00:02,750 --> 00:00:06,180
+Even a cursory look at the vagrant
+documentation has a good chance of
+
+2
+00:00:06,181 --> 00:00:12,150
+uncovering vagrant cloud: the main, public
+and searchable, index of vagrant boxes.
+
+3
+00:00:13,390 --> 00:00:18,060
+We're already aware of the centos/7 box--
+let's search for `rockylinux`.
+
+4
+00:00:19,780 --> 00:00:23,180
+As mentioned previously,
+vagrant supports a number of providers.
+
+5
+00:00:24,120 --> 00:00:27,390
+To use a listed box
+it must be available on your provider.
+
+6
+00:00:29,270 --> 00:00:32,540
+We can see a provider filter menu
+just below the search bar.
+
+7
+00:00:33,180 --> 00:00:36,360
+And provider badges
+in the second column of each listing.
+
+8
+00:00:38,420 --> 00:00:41,720
+These tools will help keep us informed
+as we discover boxes.
+
+9
+00:00:44,360 --> 00:00:47,600
+Let's drill into the first entry,
+`rockylinux/8`.
+
+10
+00:00:50,000 --> 00:00:52,480
+Right away, we're presented
+with a simple Vagrantfile.
+
+11
+00:00:54,750 --> 00:00:59,000
+Switching to the "New" tab, we can see
+the same info in `vagrant init` form.
+
+12
+00:01:01,540 --> 00:01:04,750
+Both of these were covered previously
+and should look mostly familiar.
+
+13
+00:01:07,210 --> 00:01:09,060
+Another thing on this page worth noting
+
+14
+00:01:09,061 --> 00:01:13,450
+is that this box
+is externally hosted by dl.rockylinux.org.
+
+15
+00:01:15,690 --> 00:01:19,360
+This box is created and maintained
+by the rocky linux project--
+
+16
+00:01:19,361 --> 00:01:23,420
+the same group already relied upon
+by using the rocky linux distro.
+
+17
+00:01:25,140 --> 00:01:29,840
+Trusting distro boxes when already
+using distro packages sounds reasonable.
+
+18
+00:01:32,750 --> 00:01:37,180
+It's also worth mentioning, however, that
+there are officially endorsed box sets--
+
+19
+00:01:37,181 --> 00:01:41,210
+specifically, those found
+in the hashicorp or bento namespaces.
+
+20
+00:01:44,240 --> 00:01:47,570
+vagrant itself is created
+and maintained by HashiCorp.
+
+21
+00:01:49,300 --> 00:01:53,150
+Trusting HashiCorp boxes when already
+using vagrant seems sensible.
+
+22
+00:01:56,240 --> 00:01:58,570
+The bento project is both
+part of the well-known
+
+23
+00:01:58,571 --> 00:02:03,300
+chef automation software testing kit
+and officially endosed by HashiCorp.
+
+24
+00:02:05,330 --> 00:02:07,540
+It contains high-quality,
+open-source code
+
+25
+00:02:07,541 --> 00:02:10,570
+to produce many boxes
+across several providers.
+
+26
+00:02:13,810 --> 00:02:18,480
+Back at our search results, we can see
+`bento/rockylinux-8` as the third listing.
+
+27
+00:02:19,600 --> 00:02:21,660
+This box would
+be another sound choice.
+
+28
+00:02:25,180 --> 00:02:30,390
+Now, we know three easy ways to find
+credible boxes: seek out distro boxes,
+
+29
+00:02:30,391 --> 00:02:34,480
+boxes in the hashicorp namespace,
+or boxes in the bento namespace.
+
+30
+00:02:38,450 --> 00:02:41,180
+vagrant cloud can also be searched
+via command line
+
+31
+00:02:41,181 --> 00:02:43,240
+by using `vagrant cloud search`.
+
+32
+00:02:45,450 --> 00:02:48,030
+We can see that this information
+is very nearly the same
+
+33
+00:02:48,031 --> 00:02:49,510
+as what's found
+in the web portal.
+
+34
+00:02:51,450 --> 00:02:53,510
+It's even paginated
+in a similar way.
+
+35
+00:02:56,300 --> 00:03:01,150
+Feel free to dig in more now with `vagrant
+cloud search --help` if interested.
+
+36
+00:03:03,270 --> 00:03:06,900
+Searching for boxes via the web portal
+has already become a habit for me,
+
+37
+00:03:06,901 --> 00:03:08,000
+so I'll end here.

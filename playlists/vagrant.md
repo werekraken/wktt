@@ -107,4 +107,13 @@
     <td><p>📜 <a href="../transcripts/vagrant/machine_status_and_power_control.md"><b>Transcript</b></a></p></td>
     <td><p>🗨  <a href="../subtitles/vagrant/machine_status_and_power_control.srt"><b>Subtitles</b></a></p></td>
   </tr>
+  <tr>
+    <td><p><b>5.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=0hyiw9641KM">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/0hyiw9641KM/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Finding Boxes on Vagrant Cloud</b></p></td>
+    <td><p>📜 <a href="../transcripts/vagrant/finding_boxes_on_vagrant_cloud.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨  <a href="../subtitles/vagrant/finding_boxes_on_vagrant_cloud.srt"><b>Subtitles</b></a></p></td>
+  </tr>
 </table>
