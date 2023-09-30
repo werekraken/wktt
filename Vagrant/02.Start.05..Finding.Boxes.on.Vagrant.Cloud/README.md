@@ -6,7 +6,9 @@ https://www.youtube.com/watch?v=0hyiw9641KM
 
 Even a cursory look at the vagrant documentation has a good chance of uncovering vagrant cloud: the main, public and searchable, index of vagrant boxes.
 
-https://developer.hashicorp.com/vagrant/vagrant-cloud/boxes/catalog
+> <br>
+> https://developer.hashicorp.com/vagrant/vagrant-cloud/boxes/catalog
+> <br><br>
 
 We're already aware of the centos/7 box--let's search for `rockylinux`.
 
@@ -26,13 +28,17 @@ This box is created and maintained by the rocky linux project--the same group al
 
 It's also worth mentioning, however, that there are officially endorsed box sets--specifically, those found in the hashicorp or bento namespaces.
 
-https://developer.hashicorp.com/vagrant/docs/boxes
+> <br>
+> https://developer.hashicorp.com/vagrant/docs/boxes
+> <br><br>
 
 vagrant itself is created and maintained by HashiCorp. Trusting HashiCorp boxes when already using vagrant seems sensible.
 
 The bento project is both part of the well-known chef automation software testing kit and officially endosed by HashiCorp. It contains high-quality, open-source code to produce many boxes across several providers.
 
-https://github.com/chef/bento
+> <br>
+> https://github.com/chef/bento
+> <br><br>
 
 Back at our search results, we can see `bento/rockylinux-8` as the third listing. This box would be another sound choice.
 
