@@ -27,6 +27,7 @@ werekraken@ubuntu:~/demo$ cat Vagrantfile
 Let's make some edits. I'm going to install vim to do so, but feel free to use any editor you like.
 ```
 werekraken@ubuntu:~/demo$ sudo apt-get install vim
+...
 ```
 
 Let's add some additional cpu and memory resources. And save that.
