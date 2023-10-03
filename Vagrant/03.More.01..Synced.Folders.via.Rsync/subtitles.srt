@@ -1,0 +1,207 @@
+1
+00:00:01,030 --> 00:00:03,510
+We previously learned that
+`vagrant halt` can be used
+
+2
+00:00:03,511 --> 00:00:07,330
+to persist the internal storage
+of vagrant managed machines.
+
+3
+00:00:08,570 --> 00:00:12,240
+However, often you will want to reclaim
+these storage resources
+
+4
+00:00:12,241 --> 00:00:14,150
+when stepping away
+from a project.
+
+5
+00:00:16,030 --> 00:00:20,300
+We also learned that `vagrant up` provides
+us with a solid starting environment.
+
+6
+00:00:22,000 --> 00:00:24,900
+Generally, the next step
+is customizing that environment
+
+7
+00:00:24,901 --> 00:00:26,570
+by deploying code
+and config.
+
+8
+00:00:28,510 --> 00:00:32,090
+Frequently, this step includes
+files sourced from our project root.
+
+9
+00:00:33,720 --> 00:00:35,450
+vagrant just wouldn't
+be complete without
+
+10
+00:00:35,451 --> 00:00:38,510
+a way to copy files
+into and out of machines.
+
+11
+00:00:40,810 --> 00:00:44,780
+Thankfully, it provides
+a mechanism for this: synced folders.
+
+12
+00:00:46,690 --> 00:00:50,000
+There are several types
+of synced folders supported by vagrant.
+
+13
+00:00:50,900 --> 00:00:53,180
+Let's begin with the default
+synced folder type
+
+14
+00:00:53,181 --> 00:00:56,330
+shipped with our
+`centos/7` box, rsync.
+
+15
+00:00:58,000 --> 00:01:00,000
+Let's create a file
+in our project root.
+
+16
+00:01:02,330 --> 00:01:03,660
+And bring our
+machine up.
+
+17
+00:01:15,660 --> 00:01:20,360
+We can see the file exists
+inside our vm too, in /vagrant.
+
+18
+00:01:22,480 --> 00:01:26,300
+Let's log out and modify the file
+by adding some contents.
+
+19
+00:01:34,120 --> 00:01:36,900
+The modification isn't present
+inside the vm.
+
+20
+00:01:38,900 --> 00:01:41,120
+In the case
+of rsync synced folders,
+
+21
+00:01:41,121 --> 00:01:44,390
+we need to run `vagrant rsync`
+to transfer the change in.
+
+22
+00:01:50,330 --> 00:01:52,330
+And now we
+can see our modification.
+
+23
+00:01:54,180 --> 00:01:57,090
+Next, let's create a file,
+inside the vm,
+
+24
+00:01:57,091 --> 00:01:59,060
+in the /vagrant directory.
+
+25
+00:02:03,000 --> 00:02:05,480
+This file isn't present
+in our project root.
+
+26
+00:02:07,480 --> 00:02:10,390
+Let's see what happens
+if we run `vagrant rsync`.
+
+27
+00:02:17,330 --> 00:02:19,060
+This is an
+important take away.
+
+28
+00:02:19,690 --> 00:02:25,510
+`vagrant rsync` copies files into the vm
+from outside, not from the inside out.
+
+29
+00:02:26,090 --> 00:02:28,030
+And is destructive
+by default.
+
+30
+00:02:30,570 --> 00:02:32,630
+Let's create our
+internal file again.
+
+31
+00:02:36,780 --> 00:02:39,570
+We can leverage
+`rsync`'s `-e` option
+
+32
+00:02:39,571 --> 00:02:42,720
+to set the remote shell command
+to `vagrant ssh`.
+
+33
+00:02:44,330 --> 00:02:46,420
+No hostname is needed
+preceeding the colon
+
+34
+00:02:46,421 --> 00:02:50,300
+since `vagrant ssh` will already access
+our vagrant managed machine.
+
+35
+00:02:52,420 --> 00:02:56,900
+Now the internal file is present in our
+external project root and will persist,
+
+36
+00:02:56,901 --> 00:02:58,510
+even if the machine
+is destroyed.
+
+37
+00:03:00,600 --> 00:03:03,360
+Another cool property
+of using `rsync -e`
+
+38
+00:03:03,361 --> 00:03:07,120
+is that it can copy files
+with arbitrary paths in or out.
+
+39
+00:03:08,420 --> 00:03:11,720
+`vagrant rsync` instead operates
+on pre-configured paths--
+
+40
+00:03:11,721 --> 00:03:15,300
+it takes less typing, but is
+less flexible for on-the-fly work.
+
+41
+00:03:17,210 --> 00:03:18,240
+Let's clean up--
+
+42
+00:03:20,180 --> 00:03:22,600
+including our external
+and internal files.

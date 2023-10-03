@@ -117,3 +117,17 @@
     <td><p>🗨  <a href="02.Start.05..Finding.Boxes.on.Vagrant.Cloud/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
 </table>
+
+## Synced Folders and More
+
+<table>
+  <tr>
+    <td><p><b>1.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=I6tDOjEyG-Q">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/I6tDOjEyG-Q/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Synced Folders via Rsync</b></p></td>
+    <td><p>📜 <a href="03.More.01..Synced.Folders.via.Rsync/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="03.More.01..Synced.Folders.via.Rsync/subtitles.srt"><b>Subtitles</b></a></p></td>
+  </tr>
+</table>
