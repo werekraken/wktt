@@ -33,8 +33,9 @@ We can see the file exists inside our vm too, in /vagrant.
 Let's log out and modify the file by adding some contents.
 ```
 [vagrant@localhost ~]$ logout
-...
 werekraken@ubuntu:~/demo$ echo contents > external 
+werekraken@ubuntu:~/demo$ cat external 
+...
 werekraken@ubuntu:~/demo$ vagrant ssh
 ...
 ```
@@ -46,7 +47,6 @@ The modification isn't present inside the vm.
 In the case of rsync synced folders, we need to run `vagrant rsync` to transfer the change in.
 ```
 [vagrant@localhost ~]$ logout
-...
 werekraken@ubuntu:~/demo$ vagrant rsync
 ...
 werekraken@ubuntu:~/demo$ vagrant ssh
@@ -63,7 +63,6 @@ Next, let's create a file, inside the vm, in the /vagrant directory.
 [vagrant@localhost ~]$ ls /vagrant/
 ...
 [vagrant@localhost ~]$ logout
-...
 ```
 This file isn't present in our project root.
 ```
@@ -88,7 +87,6 @@ Let's create our internal file again.
 [vagrant@localhost ~]$ ls /vagrant/
 ...
 [vagrant@localhost ~]$ logout
-...
 ```
 We can leverage `rsync`'s `-e` option to set the remote shell command to `vagrant ssh`. No hostname is needed preceeding the colon since `vagrant ssh` will already access our vagrant managed machine.
 ```
