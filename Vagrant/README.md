@@ -105,7 +105,7 @@
     </a></p></td>
     <td><p><b>Machine Status and Power Control</b></p></td>
     <td><p>📜 <a href="02.Start.04..Machine.Status.and.Power.Control/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨  <a href="02.Start.04..Machine.Status.and.Power.Control/subtitles.srt"><b>Subtitles</b></a></p></td>
+    <td><p>🗨 <a href="02.Start.04..Machine.Status.and.Power.Control/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>5.</b></p></td>
@@ -114,7 +114,7 @@
     </a></p></td>
     <td><p><b>Finding Boxes on Vagrant Cloud</b></p></td>
     <td><p>📜 <a href="02.Start.05..Finding.Boxes.on.Vagrant.Cloud/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨  <a href="02.Start.05..Finding.Boxes.on.Vagrant.Cloud/subtitles.srt"><b>Subtitles</b></a></p></td>
+    <td><p>🗨 <a href="02.Start.05..Finding.Boxes.on.Vagrant.Cloud/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
 </table>
 
