@@ -1,0 +1,43 @@
+1
+00:00:01,030 --> 00:00:05,900
+Last time, we looked at the default
+rsync synced folder for our `centos/7` box.
+
+2
+00:00:07,690 --> 00:00:11,240
+So, where did this synced folder
+come from--where is it configured?
+
+3
+00:00:12,900 --> 00:00:15,720
+vagrant boxes actually
+ship with a Vagrantfile
+
+4
+00:00:15,721 --> 00:00:18,360
+containing some box-level
+default configuration.
+
+5
+00:00:20,900 --> 00:00:25,180
+Let's take a look at the Vagrantfile that
+came with the `centos/7` box I'm using,
+
+6
+00:00:25,181 --> 00:00:27,900
+version `2004.01`.
+
+7
+00:00:30,300 --> 00:00:33,300
+Here we can see
+the rsync synced folder config
+
+8
+00:00:33,301 --> 00:00:35,780
+mapping our project root
+to /vagrant.
+
+9
+00:00:36,480 --> 00:00:37,660
+It's as simple
+as that.

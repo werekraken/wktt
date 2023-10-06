@@ -130,4 +130,13 @@
     <td><p>📜 <a href="03.More.01..Synced.Folders.via.Rsync/README.md"><b>Transcript</b></a></p></td>
     <td><p>🗨 <a href="03.More.01..Synced.Folders.via.Rsync/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
+  <tr>
+    <td><p><b>2.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=mCQl-lFEn9o">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/mCQl-lFEn9o/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>The Box Vagrantfile</b></p></td>
+    <td><p>📜 <a href="03.More.02..The.Box.Vagrantfile/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="03.More.02..The.Box.Vagrantfile/subtitles.srt"><b>Subtitles</b></a></p></td>
+  </tr>
 </table>
