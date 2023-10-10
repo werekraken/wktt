@@ -139,4 +139,13 @@
     <td><p>📜 <a href="03.More.02..The.Box.Vagrantfile/README.md"><b>Transcript</b></a></p></td>
     <td><p>🗨 <a href="03.More.02..The.Box.Vagrantfile/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
+  <tr>
+    <td><p><b>3.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=0JcFdpUITBE">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/0JcFdpUITBE/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>VirtualBox Guest Additions</b></p></td>
+    <td><p>📜 <a href="03.More.03..VirtualBox.Guest.Additions/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="03.More.03..VirtualBox.Guest.Additions/subtitles.srt"><b>Subtitles</b></a></p></td>
+  </tr>
 </table>
