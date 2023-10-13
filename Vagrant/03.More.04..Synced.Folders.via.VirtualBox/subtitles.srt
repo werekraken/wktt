@@ -1,0 +1,83 @@
+1
+00:00:01,450 --> 00:00:04,360
+Last time we setup
+the vagrant-vbguest plugin
+
+2
+00:00:04,361 --> 00:00:07,480
+to automate installation
+of VirtualBox guest additions.
+
+3
+00:00:09,300 --> 00:00:12,000
+Now, we're ready to
+add a VirtualBox synced folder.
+
+4
+00:00:14,000 --> 00:00:16,270
+Let's open our Vagrantfile
+and add one.
+
+5
+00:00:18,450 --> 00:00:21,240
+We'll use the same paths
+as the rsync synced folder
+
+6
+00:00:21,241 --> 00:00:24,750
+configured in the box Vagrantfile,
+which we saw previously.
+
+7
+00:00:26,210 --> 00:00:28,420
+We'll set the type
+to `virtualbox` here though.
+
+8
+00:00:30,600 --> 00:00:35,150
+This is a safe pattern and will simply
+override the existing rsync synced folder.
+
+9
+00:00:37,060 --> 00:00:38,930
+Let's create
+an external file.
+
+10
+00:00:42,120 --> 00:00:43,450
+And bring up
+our machine.
+
+11
+00:01:05,090 --> 00:01:08,000
+We can see that
+the file exists in /vagrant.
+
+12
+00:01:09,930 --> 00:01:11,690
+Let's modify it
+from outside.
+
+13
+00:01:21,090 --> 00:01:25,600
+This time the modification is present
+inside the vm without any extra steps.
+
+14
+00:01:27,270 --> 00:01:28,960
+Let's make
+an internal file.
+
+15
+00:01:35,510 --> 00:01:39,120
+This file is present on the outside
+without any extra steps.
+
+16
+00:01:41,540 --> 00:01:46,210
+VirtualBox synced folders require
+a bit more setup, but are extremely useful.
+
+17
+00:01:46,780 --> 00:01:47,930
+Let's clean up.
