@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=2sp3n7IG028
 
 ## Transcript
 
-Last time we setup the vagrant-vbguest plugin to automate installation of VirtualBox guest additions. Now, we're ready to add a VirtualBox synced folder.
+Last time, we setup the vagrant-vbguest plugin to automate installation of VirtualBox guest additions. Now, we're ready to add a VirtualBox synced folder.
 
 Let's open our Vagrantfile and add one. We'll use the same paths as the rsync synced folder configured in the box Vagrantfile, which we saw previously. We'll set the type to `virtualbox` here though. This is a safe pattern and will simply override the existing rsync synced folder.
 ```
