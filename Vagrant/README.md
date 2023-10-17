@@ -157,4 +157,13 @@
     <td><p>📜 <a href="03.More.04..Synced.Folders.via.VirtualBox/README.md"><b>Transcript</b></a></p></td>
     <td><p>🗨 <a href="03.More.04..Synced.Folders.via.VirtualBox/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
+  <tr>
+    <td><p><b>5.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=QtPoqLdG7do">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/QtPoqLdG7do/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Disabling vagrant-vbguest</b></p></td>
+    <td><p>📜 <a href="03.More.05..Disabling.vagrant-vbguest/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="03.More.05..Disabling.vagrant-vbguest/subtitles.srt"><b>Subtitles</b></a></p></td>
+  </tr>
 </table>
