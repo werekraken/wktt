@@ -1,6 +1,6 @@
 # Synced Folders via VirtualBox [Vagrant: Development Environments Made Easy]
 
-https://www.youtube.com/watch?v=2sp3n7IG028
+https://www.youtube.com/watch?v=VpDfLxl5NV0
 
 ## Transcript
 

@@ -150,8 +150,8 @@
   </tr>
   <tr>
     <td><p><b>4.</b></p></td>
-    <td><p><a href="https://www.youtube.com/watch?v=2sp3n7IG028">
-      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/2sp3n7IG028/mqdefault.jpg" width="50%" />
+    <td><p><a href="https://www.youtube.com/watch?v=VpDfLxl5NV0">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/VpDfLxl5NV0/mqdefault.jpg" width="50%" />
     </a></p></td>
     <td><p><b>Synced Folders via VirtualBox</b></p></td>
     <td><p>📜 <a href="03.More.04..Synced.Folders.via.VirtualBox/README.md"><b>Transcript</b></a></p></td>
