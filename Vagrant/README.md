@@ -166,4 +166,13 @@
     <td><p>📜 <a href="03.More.05..Disabling.vagrant-vbguest/README.md"><b>Transcript</b></a></p></td>
     <td><p>🗨 <a href="03.More.05..Disabling.vagrant-vbguest/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
+  <tr>
+    <td><p><b>6.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=gLtZtpE7pA8">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/gLtZtpE7pA8/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>The Vagrant Home Vagrantfile</b></p></td>
+    <td><p>📜 <a href="03.More.06..The.Vagrant.Home.Vagrantfile/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="03.More.06..The.Vagrant.Home.Vagrantfile/subtitles.srt"><b>Subtitles</b></a></p></td>
+  </tr>
 </table>
