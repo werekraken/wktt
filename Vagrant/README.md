@@ -175,4 +175,13 @@
     <td><p>📜 <a href="03.More.06..The.Vagrant.Home.Vagrantfile/README.md"><b>Transcript</b></a></p></td>
     <td><p>🗨 <a href="03.More.06..The.Vagrant.Home.Vagrantfile/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
+  <tr>
+    <td><p><b>7.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=5-ILVHnjnHE">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/5-ILVHnjnHE/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Vagrantfile Precedence</b></p></td>
+    <td><p>📜 <a href="03.More.07..Vagrantfile.Precedence/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="03.More.07..Vagrantfile.Precedence/subtitles.srt"><b>Subtitles</b></a></p></td>
+  </tr>
 </table>

@@ -1,0 +1,172 @@
+1
+00:00:01,060 --> 00:00:03,450
+We saw previously that
+our project Vagrantfile
+
+2
+00:00:03,451 --> 00:00:06,390
+can override settings found
+in the box Vagrantfile.
+
+3
+00:00:08,510 --> 00:00:13,360
+We overrode the default rsync synced
+folder and made a VirtualBox synced folder,
+
+4
+00:00:13,361 --> 00:00:16,120
+configured with the same paths,
+in its place.
+
+5
+00:00:18,420 --> 00:00:22,000
+This was possible because settings
+configured in the project Vagrantfile
+
+6
+00:00:22,001 --> 00:00:25,030
+have higher precedence
+than those in the box Vagrantfile.
+
+7
+00:00:27,300 --> 00:00:29,780
+Last time, we introduced
+a third Vagrantfile:
+
+8
+00:00:29,781 --> 00:00:32,270
+the one found
+in your vagrant home directory.
+
+9
+00:00:34,000 --> 00:00:37,630
+I mentioned that settings in this file
+apply to all the projects of a user.
+
+10
+00:00:40,630 --> 00:00:44,900
+The topic of Vagrantfile precedence
+is increasing in complexity as we go.
+
+11
+00:00:47,150 --> 00:00:50,510
+Thankfully, the Vagrantfile page
+found in the vagrant documentation
+
+12
+00:00:50,511 --> 00:00:53,330
+includes a comprehensive overview
+of this topic.
+
+13
+00:00:55,900 --> 00:00:59,090
+We can see here that
+the box Vagrantfile is loaded first
+
+14
+00:00:59,091 --> 00:01:01,390
+and, therefore,
+has the lowest precedence.
+
+15
+00:01:02,270 --> 00:01:06,630
+The vagrant home Vagrantfile is next,
+followed by the project Vagrantfile.
+
+16
+00:01:09,900 --> 00:01:13,540
+There are additional precedence concerns
+in multimachine environments
+
+17
+00:01:13,541 --> 00:01:19,660
+or when overriding non-provider specific
+configuration from within a provider block--
+
+18
+00:01:19,661 --> 00:01:21,270
+these are out-of-scope
+for now.
+
+19
+00:01:24,090 --> 00:01:26,480
+Last time, we used our
+vagrant home Vagrantfile
+
+20
+00:01:26,481 --> 00:01:29,420
+to skip guest additions
+installation by default.
+
+21
+00:01:31,660 --> 00:01:36,330
+Let's restore our VirtualBox synced folder
+using only our project Vagrantfile.
+
+22
+00:01:37,690 --> 00:01:41,870
+We'll uncomment the kernel upgrade
+and VirtualBox synced folder lines.
+
+23
+00:01:42,120 --> 00:01:44,720
+Then set `vbguest.auto_update`
+to `true`.
+
+24
+00:01:46,960 --> 00:01:49,930
+Based on what we read
+in the documentation about precedence,
+
+25
+00:01:49,931 --> 00:01:53,930
+the `vbguest.auto_update = true`
+in our project Vagrantfile
+
+26
+00:01:53,931 --> 00:01:57,450
+should override the `false` value
+in our vagrant home Vagrantfile.
+
+27
+00:01:59,540 --> 00:02:00,960
+Let's bring up
+our machine.
+
+28
+00:02:17,510 --> 00:02:18,630
+And login.
+
+29
+00:02:20,960 --> 00:02:25,330
+We can see the VirtualBox kmods are loaded
+and the /vagrant directory
+
+30
+00:02:25,331 --> 00:02:30,480
+is of type `vboxsf`--
+this is indeed a VirtualBox synced folder.
+
+31
+00:02:32,360 --> 00:02:33,480
+Time to clean up.
+
+32
+00:02:36,210 --> 00:02:38,570
+Feel free to revert
+the changes made last time
+
+33
+00:02:38,571 --> 00:02:42,060
+to your vagrant home Vagrantfile now--
+if you so choose.
+
+34
+00:02:43,000 --> 00:02:45,840
+Doing so will restore
+the vagrant-vbguest default
+
+35
+00:02:45,841 --> 00:02:48,630
+of automatic installation
+of guest additions.
