@@ -1,0 +1,158 @@
+1
+00:00:01,090 --> 00:00:05,000
+As we've seen, `vagrant up` can create
+a new machine from a boxed environment
+
+2
+00:00:05,001 --> 00:00:07,660
+in about a minute--
+which is already amazing.
+
+3
+00:00:09,090 --> 00:00:12,690
+However, many projects have
+additional environmental requirements.
+
+4
+00:00:13,690 --> 00:00:16,180
+We want to avoid running
+a bunch of setup commands
+
+5
+00:00:16,181 --> 00:00:18,030
+every time we create
+a new environment.
+
+6
+00:00:19,300 --> 00:00:23,300
+Likewise, building, managing,
+and maintaining one or more custom boxes
+
+7
+00:00:23,301 --> 00:00:28,120
+for each project, or even project class,
+would quickly become burdensome.
+
+8
+00:00:29,480 --> 00:00:33,060
+Thankfully, vagrant supports
+shell scripts, puppet manifests,
+
+9
+00:00:33,061 --> 00:00:36,150
+ansible playbooks,
+and more as provisioners.
+
+10
+00:00:37,480 --> 00:00:40,450
+Provisioners let you customize
+the environment to meet the needs
+
+11
+00:00:40,451 --> 00:00:45,360
+of your project--install dependencies,
+modify configuration,
+
+12
+00:00:45,361 --> 00:00:47,690
+start a service or two,
+whatever you need.
+
+13
+00:00:49,300 --> 00:00:52,660
+The best part is that provisioners run
+"on the first `vagrant up`
+
+14
+00:00:52,661 --> 00:00:56,390
+that creates the environment"--
+no additional commands needed.
+
+15
+00:00:58,180 --> 00:01:02,090
+Leveraging provisioners to customize
+our environments is highly useful,
+
+16
+00:01:02,091 --> 00:01:04,600
+so let's dig in
+with a shell script example.
+
+17
+00:01:06,270 --> 00:01:09,240
+When provisioning requirements
+for a project are simple,
+
+18
+00:01:09,241 --> 00:01:14,960
+it's clean and easy to satisfy them all
+in a single script named `provisioner.sh`.
+
+19
+00:01:16,570 --> 00:01:21,300
+As provisioning requirements increase in
+complexity, `provisioner.sh` can be split
+
+20
+00:01:21,301 --> 00:01:25,690
+into smaller scripts and organized in
+a provisioners directory or tree.
+
+21
+00:01:27,510 --> 00:01:30,000
+One common need
+for my projects is git.
+
+22
+00:01:31,330 --> 00:01:36,060
+Perhaps to clone a requirement, generate
+a version string using `git describe`,
+
+23
+00:01:36,061 --> 00:01:39,390
+or even automatically import
+and commit upstream code--
+
+24
+00:01:39,391 --> 00:01:42,450
+particularly that found
+in source rpms.
+
+25
+00:01:44,300 --> 00:01:46,780
+Let's make a simple script
+which installs git.
+
+26
+00:01:55,030 --> 00:01:57,960
+Add it to our machine definition
+as a shell provisioner.
+
+27
+00:02:03,420 --> 00:02:04,690
+And bring up
+our machine.
+
+28
+00:02:22,150 --> 00:02:24,240
+Let's validate
+our git installation.
+
+29
+00:02:25,180 --> 00:02:29,600
+This time we'll pass our command
+into the vm using `vagrant ssh -c`.
+
+30
+00:02:31,450 --> 00:02:32,570
+Let's clean up.
+
+31
+00:02:33,420 --> 00:02:37,030
+We'll run `vagrant destroy -f`
+to force destruction
+
+32
+00:02:37,031 --> 00:02:39,060
+without being prompted
+for confirmation.

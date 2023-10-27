@@ -185,3 +185,17 @@
     <td><p>🗨 <a href="03.More.07..Vagrantfile.Precedence/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
 </table>
+
+## Provisioners and Scripts
+
+<table>
+  <tr>
+    <td><p><b>1.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=i8eA5B6XGRY">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/i8eA5B6XGRY/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Customizing Environments with Provisioners</b></p></td>
+    <td><p>📜 <a href="04.Scripts.01..Customizing.Environments.with.Provisioners/README.md"><b>Transcript</b></a></p></td>
+    <td><p>🗨 <a href="04.Scripts.01..Customizing.Environments.with.Provisioners/subtitles.srt"><b>Subtitles</b></a></p></td>
+  </tr>
+</table>
