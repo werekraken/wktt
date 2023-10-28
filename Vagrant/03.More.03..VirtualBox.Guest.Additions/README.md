@@ -4,6 +4,8 @@ https://www.youtube.com/watch?v=0JcFdpUITBE
 
 ## Resources
 
+🧱 [Materials..2.3.1](../02.Start.03..A.First.Look.at.Vagrantfile/Materials..2.3.1)
+🧱 [Materials..3.3.0](../03.More.03..VirtualBox.Guest.Additions/Materials..3.3.0)
 🗨 [Subtitles](subtitles.srt)
 
 ## Transcript

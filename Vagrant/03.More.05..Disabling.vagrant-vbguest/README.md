@@ -4,6 +4,8 @@ https://www.youtube.com/watch?v=QtPoqLdG7do
 
 ## Resources
 
+🧱 [Materials..3.4.0](../03.More.04..Synced.Folders.via.VirtualBox/Materials..3.4.0)
+🧱 [Materials..3.5.0](../03.More.05..Disabling.vagrant-vbguest/Materials..3.5.0)
 🗨 [Subtitles](subtitles.srt)
 
 ## Transcript
