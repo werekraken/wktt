@@ -12,9 +12,9 @@ Let's edit our Vagrantfile. We'll comment out our VirtualBox synced folder and a
 ```
 werekraken@ubuntu:~/demo$ vi Vagrantfile
 ...
-+  config.vbguest.auto_update = false
 -  config.vbguest.installer_options = { allow_kernel_upgrade: true }
 -  config.vm.synced_folder ".", "/vagrant", type: "virtualbox"
++  config.vbguest.auto_update = false
 +#  config.vbguest.installer_options = { allow_kernel_upgrade: true }
 +#  config.vm.synced_folder ".", "/vagrant", type: "virtualbox"
 ...
