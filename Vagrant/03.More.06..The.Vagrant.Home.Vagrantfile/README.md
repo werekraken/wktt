@@ -18,9 +18,9 @@ As we saw previously, if we run `vagrant up` with this config, the vagrant-vbgue
 To do this, we simply create a Vagrantfile in our vagrant home, add the basic config structure, and set `vbguest.auto_update` to `false`--essentially, the same thing as we did in our project Vagrantfile.
 ```
 werekraken@ubuntu:~/demo$ vi ~/.vagrant.d/Vagrantfile
-...
++Vagrant.configure("2") do |config|
 +  config.vbguest.auto_update = false
-...
++end
 ```
 Let's bring our machine up.
 ```
