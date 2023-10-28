@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=NonlGxFD00o
 
+## Resources
+
+🗨 [Subtitles](subtitles.srt)
+
 ## Transcript
 
 Here we have Windows 10 with the PSWindowsUpdate PowerShell module installed.

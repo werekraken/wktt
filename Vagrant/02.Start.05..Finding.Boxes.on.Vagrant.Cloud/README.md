@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=0hyiw9641KM
 
+## Resources
+
+🗨 [Subtitles](subtitles.srt)
+
 ## Transcript
 
 Even a cursory look at the vagrant documentation has a good chance of uncovering vagrant cloud: the main, public and searchable, index of vagrant boxes.

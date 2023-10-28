@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=mCQl-lFEn9o
 
+## Resources
+
+🗨 [Subtitles](subtitles.srt)
+
 ## Transcript
 
 Last time, we looked at the default rsync synced folder for our `centos/7` box. So, where did this synced folder come from--where is it configured?

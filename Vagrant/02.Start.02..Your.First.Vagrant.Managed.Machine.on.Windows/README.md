@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=ipjYKkupVTk
 
+## Resources
+
+🗨 [Subtitles](subtitles.srt)
+
 ## Transcript
 
 Here we have new installs of vagrant and VirtualBox.

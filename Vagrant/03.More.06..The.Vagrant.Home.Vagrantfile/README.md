@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=gLtZtpE7pA8
 
+## Resources
+
+🗨 [Subtitles](subtitles.srt)
+
 ## Transcript
 
 So far, we've configured vagrant by adding settings to our project Vagrantfile. Another option is to apply config to a user-level Vagrantfile found in your vagrant home--by default `~/.vagrant.d/`.

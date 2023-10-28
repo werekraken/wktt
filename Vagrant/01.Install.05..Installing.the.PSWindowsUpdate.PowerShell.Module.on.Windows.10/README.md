@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=A0Gi5EL7odA
 
+## Resources
+
+🗨 [Subtitles](subtitles.srt)
+
 ## Transcript
 
 Here we have a fresh install of Windows 10.

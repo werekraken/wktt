@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=l4-lqExciQM
 
+## Resources
+
+🗨 [Subtitles](subtitles.srt)
+
 ## Transcript
 
 Here we have macOS 12.6.3 with the command line developer tools installed.

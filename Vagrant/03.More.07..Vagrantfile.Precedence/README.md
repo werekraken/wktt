@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=5-ILVHnjnHE
 
+## Resources
+
+🗨 [Subtitles](subtitles.srt)
+
 ## Transcript
 
 We saw previously that our project Vagrantfile can override settings found in the box Vagrantfile. We overrode the default rsync synced folder and made a VirtualBox synced folder, configured with the same paths, in its place.

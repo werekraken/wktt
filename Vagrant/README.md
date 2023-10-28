@@ -10,7 +10,6 @@
     </a></p></td>
     <td><p><b>Installing Vagrant on Ubuntu 22.04</b></p></td>
     <td><p>📜 <a href="01.Install.01..Installing.Vagrant.on.Ubuntu.22.04/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="01.Install.01..Installing.Vagrant.on.Ubuntu.22.04/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>2.</b></p></td>
@@ -19,7 +18,6 @@
     </a></p></td>
     <td><p><b>Installing the Command Line Developer Tools on macOS 12</b></p></td>
     <td><p>📜 <a href="01.Install.02..Installing.the.Command.Line.Developer.Tools.on.macOS.12/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="01.Install.02..Installing.the.Command.Line.Developer.Tools.on.macOS.12/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>3.</b></p></td>
@@ -28,7 +26,6 @@
     </a></p></td>
     <td><p><b>Installing Homebrew on macOS 12</b></p></td>
     <td><p>📜 <a href="01.Install.03..Installing.Homebrew.on.macOS.12/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="01.Install.03..Installing.Homebrew.on.macOS.12/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>4.</b></p></td>
@@ -37,7 +34,6 @@
     </a></p></td>
     <td><p><b>Installing Vagrant on macOS 12</b></p></td>
     <td><p>📜 <a href="01.Install.04..Installing.Vagrant.on.macOS.12/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="01.Install.04..Installing.Vagrant.on.macOS.12/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>5.</b></p></td>
@@ -46,7 +42,6 @@
     </a></p></td>
     <td><p><b>Installing the PSWindowsUpdate PowerShell Module on Windows 10</b></p></td>
     <td><p>📜 <a href="01.Install.05..Installing.the.PSWindowsUpdate.PowerShell.Module.on.Windows.10/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="01.Install.05..Installing.the.PSWindowsUpdate.PowerShell.Module.on.Windows.10/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>6.</b></p></td>
@@ -55,7 +50,6 @@
     </a></p></td>
     <td><p><b>Installing Windows Package Manager CLI (aka winget) on Windows 10</b></p></td>
     <td><p>📜 <a href="01.Install.06..Installing.Windows.Package.Manager.CLI.aka.winget.on.Windows.10/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="01.Install.06..Installing.Windows.Package.Manager.CLI.aka.winget.on.Windows.10/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>7.</b></p></td>
@@ -64,7 +58,6 @@
     </a></p></td>
     <td><p><b>Installing Vagrant on Windows 10</b></p></td>
     <td><p>📜 <a href="01.Install.07..Installing.Vagrant.on.Windows.10/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="01.Install.07..Installing.Vagrant.on.Windows.10/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
 </table>
 
@@ -78,7 +71,6 @@
     </a></p></td>
     <td><p><b>Your First Vagrant Managed Machine</b></p></td>
     <td><p>📜 <a href="02.Start.01..Your.First.Vagrant.Managed.Machine/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="02.Start.01..Your.First.Vagrant.Managed.Machine/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>2.</b></p></td>
@@ -87,7 +79,6 @@
     </a></p></td>
     <td><p><b>Your First Vagrant Managed Machine on Windows</b></p></td>
     <td><p>📜 <a href="02.Start.02..Your.First.Vagrant.Managed.Machine.on.Windows/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="02.Start.02..Your.First.Vagrant.Managed.Machine.on.Windows/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>3.</b></p></td>
@@ -96,7 +87,6 @@
     </a></p></td>
     <td><p><b>A First Look at Vagrantfile</b></p></td>
     <td><p>📜 <a href="02.Start.03..A.First.Look.at.Vagrantfile/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="02.Start.03..A.First.Look.at.Vagrantfile/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>4.</b></p></td>
@@ -105,7 +95,6 @@
     </a></p></td>
     <td><p><b>Machine Status and Power Control</b></p></td>
     <td><p>📜 <a href="02.Start.04..Machine.Status.and.Power.Control/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="02.Start.04..Machine.Status.and.Power.Control/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>5.</b></p></td>
@@ -114,7 +103,6 @@
     </a></p></td>
     <td><p><b>Finding Boxes on Vagrant Cloud</b></p></td>
     <td><p>📜 <a href="02.Start.05..Finding.Boxes.on.Vagrant.Cloud/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="02.Start.05..Finding.Boxes.on.Vagrant.Cloud/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
 </table>
 
@@ -128,7 +116,6 @@
     </a></p></td>
     <td><p><b>Synced Folders via Rsync</b></p></td>
     <td><p>📜 <a href="03.More.01..Synced.Folders.via.Rsync/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="03.More.01..Synced.Folders.via.Rsync/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>2.</b></p></td>
@@ -137,7 +124,6 @@
     </a></p></td>
     <td><p><b>The Box Vagrantfile</b></p></td>
     <td><p>📜 <a href="03.More.02..The.Box.Vagrantfile/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="03.More.02..The.Box.Vagrantfile/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>3.</b></p></td>
@@ -146,7 +132,6 @@
     </a></p></td>
     <td><p><b>VirtualBox Guest Additions</b></p></td>
     <td><p>📜 <a href="03.More.03..VirtualBox.Guest.Additions/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="03.More.03..VirtualBox.Guest.Additions/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>4.</b></p></td>
@@ -155,7 +140,6 @@
     </a></p></td>
     <td><p><b>Synced Folders via VirtualBox</b></p></td>
     <td><p>📜 <a href="03.More.04..Synced.Folders.via.VirtualBox/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="03.More.04..Synced.Folders.via.VirtualBox/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>5.</b></p></td>
@@ -164,7 +148,6 @@
     </a></p></td>
     <td><p><b>Disabling vagrant-vbguest</b></p></td>
     <td><p>📜 <a href="03.More.05..Disabling.vagrant-vbguest/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="03.More.05..Disabling.vagrant-vbguest/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>6.</b></p></td>
@@ -173,7 +156,6 @@
     </a></p></td>
     <td><p><b>The Vagrant Home Vagrantfile</b></p></td>
     <td><p>📜 <a href="03.More.06..The.Vagrant.Home.Vagrantfile/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="03.More.06..The.Vagrant.Home.Vagrantfile/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
   <tr>
     <td><p><b>7.</b></p></td>
@@ -182,7 +164,6 @@
     </a></p></td>
     <td><p><b>Vagrantfile Precedence</b></p></td>
     <td><p>📜 <a href="03.More.07..Vagrantfile.Precedence/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="03.More.07..Vagrantfile.Precedence/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
 </table>
 
@@ -196,6 +177,5 @@
     </a></p></td>
     <td><p><b>Customizing Environments with Provisioners</b></p></td>
     <td><p>📜 <a href="04.Scripts.01..Customizing.Environments.with.Provisioners/README.md"><b>Transcript</b></a></p></td>
-    <td><p>🗨 <a href="04.Scripts.01..Customizing.Environments.with.Provisioners/subtitles.srt"><b>Subtitles</b></a></p></td>
   </tr>
 </table>

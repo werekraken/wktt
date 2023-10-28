@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=KEGtKEmSBBk
 
+## Resources
+
+🗨 [Subtitles](subtitles.srt)
+
 ## Transcript
 
 We're back in our demo directory with our centos/7 Vagrantfile.

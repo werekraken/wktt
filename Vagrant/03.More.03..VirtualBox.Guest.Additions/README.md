@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=0JcFdpUITBE
 
+## Resources
+
+🗨 [Subtitles](subtitles.srt)
+
 ## Transcript
 
 VirtualBox guest additions provide some decidedly advantageous features. Among these is VirtualBox synced folders--a clear step up from rsync synced folders for many vagrant use cases.

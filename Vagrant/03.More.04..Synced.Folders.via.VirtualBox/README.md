@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=VpDfLxl5NV0
 
+## Resources
+
+🗨 [Subtitles](subtitles.srt)
+
 ## Transcript
 
 Last time, we setup the vagrant-vbguest plugin to automate installation of VirtualBox guest additions. Now, we're ready to add a VirtualBox synced folder.

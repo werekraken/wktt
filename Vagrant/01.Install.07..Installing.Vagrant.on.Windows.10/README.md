@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=WeROCNVegd4
 
+## Resources
+
+🗨 [Subtitles](subtitles.srt)
+
 ## Transcript
 
 Here we have Windows 10 with the PSWindowsUpdate PowerShell module and winget installed.

@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=sfxot1Nepqg
 
+## Resources
+
+🗨 [Subtitles](subtitles.srt)
+
 ## Transcript
 
 In the real world, you'll probably have to set a project aside from time-to-time. Sometimes this means devoting your cpu and memory resources to another cause.

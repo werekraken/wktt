@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=9iNBgqvWcok
 
+## Resources
+
+🗨 [Subtitles](subtitles.srt)
+
 ## Transcript
 
 Here we have a fresh install of Ubuntu 22.04.

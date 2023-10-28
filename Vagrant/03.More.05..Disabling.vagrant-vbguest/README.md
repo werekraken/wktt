@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=QtPoqLdG7do
 
+## Resources
+
+🗨 [Subtitles](subtitles.srt)
+
 ## Transcript
 
 When installed, the vagrant-vbguest plugin will attempt to install VirtualBox guest additions into any environment in which they are absent. While this is generally useful, there are times when you simply don't need, or even actively don't want, guest additions.

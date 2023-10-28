@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=i8eA5B6XGRY
 
+## Resources
+
+🗨 [Subtitles](subtitles.srt)
+
 ## Transcript
 
 As we've seen, `vagrant up` can create a new machine from a boxed environment in about a minute--which is already amazing.

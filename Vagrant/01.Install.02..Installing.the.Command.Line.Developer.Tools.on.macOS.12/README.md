@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=ovX__bk2sIw
 
+## Resources
+
+🗨 [Subtitles](subtitles.srt)
+
 ## Transcript
 
 Here we have a fresh install of macOS 12.6.3.

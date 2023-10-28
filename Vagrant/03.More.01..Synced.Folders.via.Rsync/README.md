@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=I6tDOjEyG-Q
 
+## Resources
+
+🗨 [Subtitles](subtitles.srt)
+
 ## Transcript
 
 We previously learned that `vagrant halt` can be used to persist the internal storage of vagrant managed machines. However, often you will want to reclaim these storage resources when stepping away from a project.
