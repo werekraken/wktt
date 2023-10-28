@@ -4,9 +4,9 @@ https://www.youtube.com/watch?v=gLtZtpE7pA8
 
 ## Resources
 
-🧱 [Materials..3.5.0](../03.More.05..Disabling.vagrant-vbguest/Materials..3.5.0)
-🧱 [Materials..3.6.0](../03.More.06..The.Vagrant.Home.Vagrantfile/Materials..3.6.0)
-🗨 [Subtitles](subtitles.srt)
+* 🧱 [Materials..3.5.0](../03.More.05..Disabling.vagrant-vbguest/Materials..3.5.0)
+* 🧱 [Materials..3.6.0](../03.More.06..The.Vagrant.Home.Vagrantfile/Materials..3.6.0)
+* 🗨 [Subtitles](subtitles.srt)
 
 ## Transcript
 

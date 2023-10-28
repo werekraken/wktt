@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=0hyiw9641KM
 
 ## Resources
 
-🗨 [Subtitles](subtitles.srt)
+* 🗨 [Subtitles](subtitles.srt)
 
 ## Transcript
 

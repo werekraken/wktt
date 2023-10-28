@@ -4,8 +4,8 @@ https://www.youtube.com/watch?v=JpI8Rtxo828
 
 ## Resources
 
-🧱 [Materials..2.1.0](../02.Start.01..Your.First.Vagrant.Managed.Machine/Materials..2.1.0)
-🗨 [Subtitles](subtitles.srt)
+* 🧱 [Materials..2.1.0](../02.Start.01..Your.First.Vagrant.Managed.Machine/Materials..2.1.0)
+* 🗨 [Subtitles](subtitles.srt)
 
 ## Transcript
 

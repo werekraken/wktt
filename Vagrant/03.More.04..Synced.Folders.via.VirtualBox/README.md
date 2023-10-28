@@ -4,9 +4,9 @@ https://www.youtube.com/watch?v=VpDfLxl5NV0
 
 ## Resources
 
-🧱 [Materials..3.3.0](../03.More.03..VirtualBox.Guest.Additions/Materials..3.3.0)
-🧱 [Materials..3.4.0](../03.More.04..Synced.Folders.via.VirtualBox/Materials..3.4.0)
-🗨 [Subtitles](subtitles.srt)
+* 🧱 [Materials..3.3.0](../03.More.03..VirtualBox.Guest.Additions/Materials..3.3.0)
+* 🧱 [Materials..3.4.0](../03.More.04..Synced.Folders.via.VirtualBox/Materials..3.4.0)
+* 🗨 [Subtitles](subtitles.srt)
 
 ## Transcript
 

@@ -4,10 +4,10 @@ https://www.youtube.com/watch?v=KEGtKEmSBBk
 
 ## Resources
 
-🧱 [Materials..2.1.0](../02.Start.01..Your.First.Vagrant.Managed.Machine/Materials..2.1.0)
-🧱 [Materials..2.3.0](../02.Start.03..A.First.Look.at.Vagrantfile/Materials..2.3.0)
-🧱 [Materials..2.3.1](../02.Start.03..A.First.Look.at.Vagrantfile/Materials..2.3.1)
-🗨 [Subtitles](subtitles.srt)
+* 🧱 [Materials..2.1.0](../02.Start.01..Your.First.Vagrant.Managed.Machine/Materials..2.1.0)
+* 🧱 [Materials..2.3.0](../02.Start.03..A.First.Look.at.Vagrantfile/Materials..2.3.0)
+* 🧱 [Materials..2.3.1](../02.Start.03..A.First.Look.at.Vagrantfile/Materials..2.3.1)
+* 🗨 [Subtitles](subtitles.srt)
 
 ## Transcript
 
