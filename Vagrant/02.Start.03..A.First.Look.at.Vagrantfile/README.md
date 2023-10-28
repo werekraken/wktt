@@ -15,7 +15,6 @@ The Vagrantfile produced by `vagrant init` comes with a lot of comments. I perso
 I'm going to remove the comments, but feel free to skip or delay this step to take a peek at them.
 ```
 werekraken@ubuntu:~/demo$ sed -i 's/ *#.*//;/^$/d' Vagrantfile
-...
 ```
 
 Let's take a look at our remaining Vagrantfile. It's pretty simple ruby code at the moment--little more than setting the box to `centos/7`. And we supplied that as an argument to `vagrant init` last time.
@@ -73,7 +72,6 @@ We can get a more accurate value with a less common command. The total online me
 Time to clean up.
 ```
 [vagrant@localhost ~]$ logout
-...
 werekraken@ubuntu:~/demo$ vagrant destroy
 ...
 ```

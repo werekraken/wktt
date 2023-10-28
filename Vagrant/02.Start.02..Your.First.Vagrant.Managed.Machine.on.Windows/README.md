@@ -70,7 +70,6 @@ Feel free to poke around in this environment more now.
 When ready to leave, simply logout. I tend to use control-d to do so.
 ```
 [vagrant@localhost ~]$ logout
-...
 ```
 
 Finally, we use `vagrant destroy` to clean up.

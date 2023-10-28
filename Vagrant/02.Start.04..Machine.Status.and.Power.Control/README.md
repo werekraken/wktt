@@ -37,7 +37,6 @@ werekraken@ubuntu:~/demo$ vagrant ssh
 [vagrant@localhost ~]$ ls
 ...
 [vagrant@localhost ~]$ logout
-...
 ```
 
 Then halt the machine.
@@ -68,7 +67,6 @@ We can see that our file persisted. This is a key difference between `destroy` a
 Let's clean up.
 ```
 [vagrant@localhost ~]$ logout
-...
 werekraken@ubuntu:~/demo$ vagrant destroy
 ...
 ```
