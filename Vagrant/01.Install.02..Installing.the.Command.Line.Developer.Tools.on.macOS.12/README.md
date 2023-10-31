@@ -10,20 +10,20 @@ https://www.youtube.com/watch?v=ovX__bk2sIw
 
 Here we have a fresh install of macOS 12.6.3.
 ```
-werekraken@mac:~$ sw_vers
+werekraken@macos:~$ sw_vers
 ...
 ```
 
 First, we want to ensure that our environment is up-to-date.
 ```
-werekraken@mac:~$ softwareupdate --list
+werekraken@macos:~$ softwareupdate --list
 ...
 ```
 The basic environment is.
 
 Let's install the command line developer tools.
 ```
-werekraken@mac:~$ xcode-select --install
+werekraken@macos:~$ xcode-select --install
 ...
 ```
 
@@ -41,15 +41,15 @@ Notice a pattern here--when using macOS, you'll likely want to install the comma
 
 Let's validate our install.
 ```
-werekraken@mac:~$ xcode-select --print-path
+werekraken@macos:~$ xcode-select --print-path
 ...
-werekraken@mac:~$ pkgutil --file-info /Library/Developer/CommandLineTools | grep 'pkg\|^$'
+werekraken@macos:~$ pkgutil --file-info /Library/Developer/CommandLineTools | grep 'pkg\|^$'
 ...
 ```
 
 And more importantly, let's validate one of the installed executables.
 ```
-werekraken@mac:~$ git --version
+werekraken@macos:~$ git --version
 ...
 ```
 Looks good.

@@ -10,31 +10,31 @@ https://www.youtube.com/watch?v=XFLLaApEV40
 
 Here we have macOS 12.6.3 with Homebrew installed.
 ```
-werekraken@mac:~$ sw_vers
+werekraken@macos:~$ sw_vers
 ...
-werekraken@mac:~$ brew --version
+werekraken@macos:~$ brew --version
 ...
 ```
 
 First, we want to ensure that our environment is up-to-date.
 ```
-werekraken@mac:~$ softwareupdate --list
+werekraken@macos:~$ softwareupdate --list
 ...
 ```
 The basic environment is.
 
 Let's check Homebrew.
 ```
-werekraken@mac:~$ brew update
+werekraken@macos:~$ brew update
 ...
-werekraken@mac:~$ brew upgrade
+werekraken@macos:~$ brew upgrade
 ...
 ```
 brew managed installs are up-to-date too.
 
 Let's install vagrant and VirtualBox.
 ```
-werekraken@mac:~$ brew install virtualbox vagrant
+werekraken@macos:~$ brew install virtualbox vagrant
 ...
 ```
 
@@ -48,8 +48,8 @@ vagrant supports several other providers, either natively or through installable
 
 Time for basic validation. And the install looks good.
 ```
-werekraken@mac:~$ VBoxManage --version
+werekraken@macos:~$ VBoxManage --version
 ...
-werekraken@mac:~$ vagrant --version
+werekraken@macos:~$ vagrant --version
 ...
 ```

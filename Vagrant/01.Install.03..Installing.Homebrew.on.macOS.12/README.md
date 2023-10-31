@@ -10,15 +10,15 @@ https://www.youtube.com/watch?v=l4-lqExciQM
 
 Here we have macOS 12.6.3 with the command line developer tools installed.
 ```
-werekraken@mac:~$ sw_vers
+werekraken@macos:~$ sw_vers
 ...
-werekraken@mac:~$ xcode-select --print-path
+werekraken@macos:~$ xcode-select --print-path
 ...
 ```
 
 First, we want to ensure that our environment is up-to-date.
 ```
-werekraken@mac:~$ softwareupdate --list
+werekraken@macos:~$ softwareupdate --list
 ...
 ```
 The basic environment is.
@@ -31,15 +31,15 @@ Even though I have reasonable confidence that the code and platforms involved ar
 
 Instead, I'll clone the Homebrew install project--the git checkout process will both ensure the integrity of install.sh and place it on-disk, permitting future examination if desired.
 ```
-werekraken@mac:~$ git clone https://github.com/Homebrew/install
+werekraken@macos:~$ git clone https://github.com/Homebrew/install
 ...
-werekraken@mac:~$ cd install/
-werekraken@mac:~/install$ 
+werekraken@macos:~$ cd install/
+werekraken@macos:~/install$ 
 ```
 
 And now I'll run it.
 ```
-werekraken@mac:~/install$ ./install.sh
+werekraken@macos:~/install$ ./install.sh
 ...
 ```
 
@@ -51,6 +51,6 @@ Homebrew simply makes life on macOS easier and is well worth the install.
 
 Let's check our installation. And looks good.
 ```
-werekraken@mac:~/install$ brew --version
+werekraken@macos:~/install$ brew --version
 ...
 ```
