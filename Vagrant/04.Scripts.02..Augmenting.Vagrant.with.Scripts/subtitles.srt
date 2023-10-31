@@ -1,0 +1,183 @@
+1
+00:00:01,210 --> 00:00:05,810
+With our synced folder setup, we can easily
+pass files into and out of our machine.
+
+2
+00:00:08,150 --> 00:00:13,180
+Scripts and code can be passed in; build
+results and artifacts can be passed out.
+
+3
+00:00:15,300 --> 00:00:17,210
+Let's look at
+a shell script example
+
+4
+00:00:17,211 --> 00:00:20,330
+which demonstrates an awesome pattern
+to use with vagrant.
+
+5
+00:00:22,360 --> 00:00:27,240
+My projects commonly include `build.sh`:
+a shell script which is run
+
+6
+00:00:27,241 --> 00:00:30,660
+inside a vagrant managed machine
+to build the project.
+
+7
+00:00:33,090 --> 00:00:36,390
+Sometimes my projects have `test.sh`
+to run tests
+
+8
+00:00:36,391 --> 00:00:39,090
+or `prep.sh`
+to prepare packed source code.
+
+9
+00:00:41,000 --> 00:00:44,900
+Composing the specific commands needed
+for common project actions
+
+10
+00:00:44,901 --> 00:00:46,870
+into familiarly named scripts
+
+11
+00:00:46,871 --> 00:00:50,450
+can save a lot of mental bandwidth
+when jumping between projects.
+
+12
+00:00:53,060 --> 00:00:55,600
+`build.sh` is different
+than a provisioner.
+
+13
+00:00:57,150 --> 00:01:00,570
+Provisioners usually run once
+and help setup the environment.
+
+14
+00:01:02,060 --> 00:01:05,780
+`build.sh` may be called once,
+many times, or not at all.
+
+15
+00:01:06,330 --> 00:01:08,240
+It depends on you're
+current use-case.
+
+16
+00:01:10,120 --> 00:01:12,390
+Let's create
+a simple `build.sh`.
+
+17
+00:01:14,450 --> 00:01:19,060
+Since we're using a VirtualBox synced
+folder, marking the script as executable
+
+18
+00:01:19,061 --> 00:01:22,570
+will affect both our internal
+and external environments.
+
+19
+00:01:24,330 --> 00:01:27,300
+Usually, a build script intended for
+a vagrant environment
+
+20
+00:01:27,301 --> 00:01:29,600
+shouldn't be run
+in a baremetal environment.
+
+21
+00:01:31,300 --> 00:01:34,210
+Therefore, I like to
+safeguard against such a case.
+
+22
+00:01:36,120 --> 00:01:39,750
+My favorite way is to have the script
+simply bail out, first thing,
+
+23
+00:01:39,751 --> 00:01:42,960
+if /vagrant/Vagrantfile
+doesn't exist.
+
+24
+00:01:45,240 --> 00:01:47,360
+This allows
+the synced `build.sh`
+
+25
+00:01:47,361 --> 00:01:50,450
+to be used directly
+in our vagrant managed machine.
+
+26
+00:01:52,690 --> 00:01:57,360
+Another option is to copy `build.sh`
+to a non-synced internal path,
+
+27
+00:01:57,361 --> 00:01:59,030
+then mark it executable.
+
+28
+00:02:00,120 --> 00:02:03,030
+One drawback of this second approach
+is that if you make edits
+
+29
+00:02:03,031 --> 00:02:06,120
+to the build script,
+you have to copy and mark it again.
+
+30
+00:02:08,390 --> 00:02:10,660
+Let's use the Vagrantfile
+safeguard here.
+
+31
+00:02:13,150 --> 00:02:18,510
+Peculiarly, our demo project has no
+formal essence--there's nothing to build,
+
+32
+00:02:18,511 --> 00:02:21,270
+so we'll use sleep
+to simulate the task.
+
+33
+00:02:23,420 --> 00:02:24,450
+Let's save that.
+
+34
+00:02:26,090 --> 00:02:28,960
+And set `build.sh`
+executable now.
+
+35
+00:02:30,270 --> 00:02:31,450
+Bring up
+our machine.
+
+36
+00:02:51,120 --> 00:02:52,900
+And run `build.sh`.
+
+37
+00:02:53,690 --> 00:02:54,840
+There it goes.
+
+38
+00:02:56,180 --> 00:02:57,270
+Let's clean up.

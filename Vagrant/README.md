@@ -198,4 +198,13 @@
     <td><p>▶️ <a href="https://www.youtube.com/watch?v=i8eA5B6XGRY"><b>Watch</b></a></p></td>
     <td><p>📜 <a href="04.Scripts.01..Customizing.Environments.with.Provisioners/README.md"><b>Transcript</b></a></p></td>
   </tr>
+  <tr>
+    <td><p><b>2.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=1OgkcwSVt0A">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/1OgkcwSVt0A/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Augmenting Vagrant with Scripts</b></p></td>
+    <td><p>▶️ <a href="https://www.youtube.com/watch?v=1OgkcwSVt0A"><b>Watch</b></a></p></td>
+    <td><p>📜 <a href="04.Scripts.02..Augmenting.Vagrant.with.Scripts/README.md"><b>Transcript</b></a></p></td>
+  </tr>
 </table>
