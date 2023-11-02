@@ -4,8 +4,8 @@ https://www.youtube.com/watch?v=1OgkcwSVt0A
 
 ## Resources
 
-* 🧱 [Materials..4.1.0](../04.Scripts.01..Customizing.Environments.with.Provisioners/Materials..4.1.0)
-* 🧱 [Materials..4.2.0](../04.Scripts.02..Augmenting.Vagrant.with.Scripts/Materials..4.2.0)
+* 🧱 [Materials..4.1.0](../04.Scripts.01..Customizing.Environments.with.Provisioners/Materials..4.1.0) (0:00 --> 1:11)
+* 🧱 [Materials..4.2.0](../04.Scripts.02..Augmenting.Vagrant.with.Scripts/Materials..4.2.0) (2:24 --> 3:03)
 * 🗨 [Subtitles](subtitles.srt)
 
 ## Transcript

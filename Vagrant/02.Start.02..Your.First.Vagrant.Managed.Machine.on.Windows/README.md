@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=ipjYKkupVTk
 
 ## Resources
 
-* 🧱 [Materials..2.2.0](../02.Start.02..Your.First.Vagrant.Managed.Machine.on.Windows/Materials..2.2.0)
+* 🧱 [Materials..2.2.0](../02.Start.02..Your.First.Vagrant.Managed.Machine.on.Windows/Materials..2.2.0) (1:03 --> 2:30)
 * 🗨 [Subtitles](subtitles.srt)
 
 ## Transcript

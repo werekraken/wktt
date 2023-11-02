@@ -4,8 +4,8 @@ https://www.youtube.com/watch?v=i8eA5B6XGRY
 
 ## Resources
 
-* 🧱 [Materials..3.7.0](../03.More.07..Vagrantfile.Precedence/Materials..3.7.0)
-* 🧱 [Materials..4.1.0](../04.Scripts.01..Customizing.Environments.with.Provisioners/Materials..4.1.0)
+* 🧱 [Materials..3.7.0](../03.More.07..Vagrantfile.Precedence/Materials..3.7.0) (0:00 --> 1:45)
+* 🧱 [Materials..4.1.0](../04.Scripts.01..Customizing.Environments.with.Provisioners/Materials..4.1.0) (2:03 --> 2:43)
 * 🗨 [Subtitles](subtitles.srt)
 
 ## Transcript

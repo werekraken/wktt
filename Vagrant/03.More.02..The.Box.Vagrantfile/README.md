@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=mCQl-lFEn9o
 
 ## Resources
 
-* 🧱 [Materials..3.2.0](../03.More.02..The.Box.Vagrantfile/Materials..3.2.0)
+* 🧱 [Materials..3.2.0](../03.More.02..The.Box.Vagrantfile/Materials..3.2.0) (0:00 --> 0:40)
 * 🗨 [Subtitles](subtitles.srt)
 
 ## Transcript

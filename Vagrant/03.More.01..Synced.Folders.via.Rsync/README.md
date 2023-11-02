@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=I6tDOjEyG-Q
 
 ## Resources
 
-* 🧱 [Materials..2.3.1](../02.Start.03..A.First.Look.at.Vagrantfile/Materials..2.3.1)
+* 🧱 [Materials..2.3.1](../02.Start.03..A.First.Look.at.Vagrantfile/Materials..2.3.1) (0:00 --> 3:27)
 * 🗨 [Subtitles](subtitles.srt)
 
 ## Transcript

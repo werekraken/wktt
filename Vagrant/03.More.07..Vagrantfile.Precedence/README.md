@@ -4,8 +4,8 @@ https://www.youtube.com/watch?v=5-ILVHnjnHE
 
 ## Resources
 
-* 🧱 [Materials..3.6.0](../03.More.06..The.Vagrant.Home.Vagrantfile/Materials..3.6.0)
-* 🧱 [Materials..3.7.0](../03.More.07..Vagrantfile.Precedence/Materials..3.7.0)
+* 🧱 [Materials..3.6.0](../03.More.06..The.Vagrant.Home.Vagrantfile/Materials..3.6.0) (0:00 --> 1:35)
+* 🧱 [Materials..3.7.0](../03.More.07..Vagrantfile.Precedence/Materials..3.7.0) (1:59 --> 2:52)
 * 🗨 [Subtitles](subtitles.srt)
 
 ## Transcript
