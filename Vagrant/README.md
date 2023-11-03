@@ -207,4 +207,13 @@
     <td><p>▶️ <a href="https://www.youtube.com/watch?v=1OgkcwSVt0A"><b>Watch</b></a></p></td>
     <td><p>📜 <a href="04.Scripts.02..Augmenting.Vagrant.with.Scripts/README.md"><b>Transcript</b></a></p></td>
   </tr>
+  <tr>
+    <td><p><b>3.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=7vmRaDPX-wA">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/7vmRaDPX-wA/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>The Single Command Principle</b></p></td>
+    <td><p>▶️ <a href="https://www.youtube.com/watch?v=7vmRaDPX-wA"><b>Watch</b></a></p></td>
+    <td><p>📜 <a href="04.Scripts.03..The.Single.Command.Principle/README.md"><b>Transcript</b></a></p></td>
+  </tr>
 </table>

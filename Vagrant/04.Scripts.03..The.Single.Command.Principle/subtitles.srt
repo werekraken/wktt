@@ -1,0 +1,152 @@
+1
+00:00:01,840 --> 00:00:06,000
+As we've seen, vagrant lets us create
+and manage virtual machine environments
+
+2
+00:00:06,001 --> 00:00:08,360
+using a single,
+simplified workflow.
+
+3
+00:00:10,240 --> 00:00:15,060
+Last time, we explored codifying common
+project actions into well-named scripts.
+
+4
+00:00:17,750 --> 00:00:20,450
+Let's look at another great way
+we can leverage shell scripts
+
+5
+00:00:20,451 --> 00:00:23,120
+to add convenience
+and free-up head space.
+
+6
+00:00:25,870 --> 00:00:29,360
+Years ago, I was introduced to a pattern
+in which you formalize
+
+7
+00:00:29,361 --> 00:00:33,300
+the most common workflow
+for a project as a single command.
+
+8
+00:00:35,090 --> 00:00:37,180
+Since then,
+nearly all of my projects
+
+9
+00:00:37,181 --> 00:00:40,000
+have included this pattern
+in some form or another.
+
+10
+00:00:42,090 --> 00:00:45,480
+I needed a name for this pattern
+and a web search delivered.
+
+11
+00:00:48,210 --> 00:00:53,480
+In his blog, Wojciech Koszek calls this
+idea the "Single Command Principle"--
+
+12
+00:00:53,481 --> 00:00:55,690
+as serviceable a name
+as I've ever heard.
+
+13
+00:00:57,660 --> 00:01:01,060
+While his post focuses on deployment,
+this concept works
+
+14
+00:01:01,061 --> 00:01:03,330
+just as well
+for development workflows.
+
+15
+00:01:06,240 --> 00:01:11,090
+My go to implementation
+for this pattern is `runner.sh`:
+
+16
+00:01:11,091 --> 00:01:14,270
+a shell script entry point run
+on our baremetal environment
+
+17
+00:01:14,271 --> 00:01:18,390
+to create, make use of, and clean up
+a vagrant managed machine.
+
+18
+00:01:20,540 --> 00:01:26,690
+`runner.sh` wraps and runs every command
+needed for our most common workflow--
+
+19
+00:01:26,691 --> 00:01:30,150
+this could include building, testing,
+deploying, and more.
+
+20
+00:01:33,330 --> 00:01:36,210
+Let's put together
+a simple `runner.sh`.
+
+21
+00:01:41,690 --> 00:01:46,360
+This `runner.sh` can be prepended
+with `RUNNER_VAGRANT_DESTROY=false`
+
+22
+00:01:46,361 --> 00:01:48,600
+to skip destruction
+on a given run.
+
+23
+00:01:51,360 --> 00:01:56,210
+Doing so can be a big time saver by
+skipping subsequent environment creations--
+
+24
+00:01:56,211 --> 00:01:59,150
+especially when changing
+or troubleshooting workflows.
+
+25
+00:02:01,390 --> 00:02:04,510
+I include this
+even in the simplest `runner.sh`.
+
+26
+00:02:07,060 --> 00:02:08,600
+Let's make it
+executable.
+
+27
+00:02:09,750 --> 00:02:10,660
+And run it.
+
+28
+00:02:27,480 --> 00:02:33,060
+We can see that `runner.sh` created our
+machine, ran the build, and cleaned up.
+
+29
+00:02:33,390 --> 00:02:34,390
+So cool.
+
+30
+00:02:37,180 --> 00:02:41,090
+To skip destruction,
+we'd invoke `runner.sh` like this.
+
+31
+00:02:42,450 --> 00:02:45,120
+Feel free to explore this more
+as you see fit.
