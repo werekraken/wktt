@@ -1,5 +1,8 @@
 # Vagrant: Development Environments Made Easy
 
+* ▶️ [**Watch All**](https://www.youtube.com/watch?v=9iNBgqvWcok&list=PLnnJ_WYniuclX8GVwA5KykmoNa1HdkMy5)
+* ⚠️ **Series in Progress**
+
 ## Installation
 
 <table>
