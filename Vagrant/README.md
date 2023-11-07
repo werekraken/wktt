@@ -216,4 +216,13 @@
     <td><p>▶️ <a href="https://www.youtube.com/watch?v=7vmRaDPX-wA"><b>Watch</b></a></p></td>
     <td><p>📜 <a href="04.Scripts.03..The.Single.Command.Principle/README.md"><b>Transcript</b></a></p></td>
   </tr>
+  <tr>
+    <td><p><b>4.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=O-Dda0wFg5I">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/O-Dda0wFg5I/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Manually Running Provisioners</b></p></td>
+    <td><p>▶️ <a href="https://www.youtube.com/watch?v=O-Dda0wFg5I"><b>Watch</b></a></p></td>
+    <td><p>📜 <a href="04.Scripts.04..Manually.Running.Provisioners/README.md"><b>Transcript</b></a></p></td>
+  </tr>
 </table>
