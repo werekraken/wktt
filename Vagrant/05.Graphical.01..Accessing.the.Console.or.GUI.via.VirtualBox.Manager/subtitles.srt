@@ -1,0 +1,78 @@
+1
+00:00:00,870 --> 00:00:02,210
+Let's bring up
+our machine.
+
+2
+00:00:04,360 --> 00:00:06,750
+Another highly desirable skill
+is to be able
+
+3
+00:00:06,751 --> 00:00:09,930
+to access the console
+of vagrant managed machines.
+
+4
+00:00:11,510 --> 00:00:14,480
+This is especially useful
+when doing low-level work--
+
+5
+00:00:14,481 --> 00:00:18,270
+say, troubleshooting boot issues
+or looking into a softlockup.
+
+6
+00:00:19,540 --> 00:00:23,000
+Alternatively, if your
+vagrant managed machine is running a GUI,
+
+7
+00:00:23,001 --> 00:00:25,570
+you can access it
+using these same methods.
+
+8
+00:00:27,300 --> 00:00:29,660
+I've used the GUI
+of a vagrant managed machine
+
+9
+00:00:29,661 --> 00:00:34,660
+to access legacy ipmi web portals
+requiring ancient java components.
+
+10
+00:00:36,690 --> 00:00:39,720
+GUI use cases for vagrant
+definitely exist.
+
+11
+00:00:41,570 --> 00:00:45,480
+Similarly to shutdown commands,
+the native method for console access
+
+12
+00:00:45,481 --> 00:00:48,330
+provided by your hypervisor
+should still work.
+
+13
+00:00:50,300 --> 00:00:54,450
+In the case of VirtualBox,
+we can simply open the VirtualBox Manager,
+
+14
+00:00:54,451 --> 00:00:59,750
+select the appropriate machine, and select
+show to bring up the console or GUI.
+
+15
+00:01:01,690 --> 00:01:05,540
+This method is especially useful
+for machines that are already running.
+
+16
+00:01:06,690 --> 00:01:07,780
+Let's clean up.

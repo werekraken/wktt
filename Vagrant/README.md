@@ -226,3 +226,17 @@
     <td><p>📜 <a href="04.Scripts.04..Manually.Running.Provisioners/README.md"><b>Transcript</b></a></p></td>
   </tr>
 </table>
+
+## Graphical Tools
+
+<table>
+  <tr>
+    <td><p><b>1.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=fyU_pb-KG2g">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/fyU_pb-KG2g/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Accessing the Console (or GUI) via VirtualBox Manager</b></p></td>
+    <td><p>▶️ <a href="https://www.youtube.com/watch?v=fyU_pb-KG2g"><b>Watch</b></a></p></td>
+    <td><p>📜 <a href="05.Graphical.01..Accessing.the.Console.or.GUI.via.VirtualBox.Manager/README.md"><b>Transcript</b></a></p></td>
+  </tr>
+</table>
