@@ -1,0 +1,52 @@
+1
+00:00:01,420 --> 00:00:04,000
+Last time, we looked at
+using VirtualBox Manager
+
+2
+00:00:04,001 --> 00:00:07,060
+to access the console
+of a vagrant managed machine.
+
+3
+00:00:09,270 --> 00:00:13,210
+If instead you need frequent access
+to the console or GUI, it can be helpful
+
+4
+00:00:13,211 --> 00:00:16,510
+to instantiate a console window
+whenever the machine is brought up.
+
+5
+00:00:18,480 --> 00:00:23,330
+Let's open our Vagrantfile and set `gui`
+to `true` for our VirtualBox provider.
+
+6
+00:00:25,660 --> 00:00:30,150
+Now whenever we bring our machine up,
+a console window is simultaneously created.
+
+7
+00:00:32,690 --> 00:00:36,720
+Our machine is now booted, but vagrant
+is still configuring the environment--
+
+8
+00:00:36,721 --> 00:00:38,090
+let's let it finish.
+
+9
+00:00:46,060 --> 00:00:49,120
+`vagrant up` is nearly done.
+And let's login.
+
+10
+00:00:53,030 --> 00:00:54,210
+Time to clean up.
+
+11
+00:00:55,420 --> 00:00:59,120
+The console window is automatically
+closed out during destruction.
