@@ -1,0 +1,202 @@
+1
+00:00:01,360 --> 00:00:003,150
+Another interesting GUI tool,
+
+2
+00:00:03,151 --> 00:00:06,870
+especially when using vagrant frequently,
+is Vagrant Manager.
+
+3
+00:00:08,780 --> 00:00:13,750
+Per the project README, "Vagrant Manager
+is an OS X status bar menu app that lets
+
+4
+00:00:13,751 --> 00:00:17,930
+you manage all of your vagrant machines
+from one central location."
+
+5
+00:00:19,930 --> 00:00:22,390
+We can see
+at the very top of `README.md`
+
+6
+00:00:22,391 --> 00:00:25,090
+that there's also
+a Vagrant Manager for Windows.
+
+7
+00:00:26,420 --> 00:00:30,960
+However, unfortunately, Vagrant Manager
+isn't available on Linux distros,
+
+8
+00:00:30,961 --> 00:00:32,780
+like Ubuntu,
+at present.
+
+9
+00:00:35,930 --> 00:00:39,720
+We're back on our macOS 12.6.3
+baremetal environment
+
+10
+00:00:39,721 --> 00:00:43,120
+with Homebrew, VirtualBox,
+and vagrant installed.
+
+11
+00:00:45,540 --> 00:00:51,300
+Vagrant Manager requires the `VBoxManage`
+and `vagrant` commands to be in your `$PATH`--
+
+12
+00:00:51,301 --> 00:00:54,750
+we just verified that this need is met
+with our version checks.
+
+13
+00:00:56,840 --> 00:00:59,690
+Next, we want to ensure
+that our environment is up-to-date.
+
+14
+00:01:02,300 --> 00:01:03,930
+The basic environment is.
+
+15
+00:01:05,000 --> 00:01:06,300
+Let's check Homebrew.
+
+16
+00:01:10,660 --> 00:01:15,270
+brew managed installs, including vagrant
+and VirtualBox, are up-to-date too.
+
+17
+00:01:17,120 --> 00:01:19,960
+Let's install Vagrant Manager.
+
+18
+00:01:25,780 --> 00:01:27,570
+Time to validate our install.
+
+19
+00:01:29,870 --> 00:01:32,900
+Open Launchpad and select
+Vagrant Manager.
+
+20
+00:01:34,240 --> 00:01:38,240
+Right away, we're met with one flavor
+of macOS Gatekeeper prompt.
+
+21
+00:01:40,810 --> 00:01:45,270
+Per the Gatekeeper documentation,
+"When a user downloads and opens an app,
+
+22
+00:01:45,271 --> 00:01:49,150
+a plug-in, or an installer package
+from outside the App Store,
+
+23
+00:01:49,151 --> 00:01:53,030
+Gatekeeper verifies that the software
+is from an identified developer,
+
+24
+00:01:53,031 --> 00:01:56,660
+is notarized by Apple to be free
+of known malicious content,
+
+25
+00:01:56,661 --> 00:01:58,120
+and hasn’t been altered."
+
+26
+00:02:00,540 --> 00:02:01,870
+That all sounds great.
+
+27
+00:02:02,180 --> 00:02:04,630
+However, the Apple Developer Program
+membership
+
+28
+00:02:04,631 --> 00:02:07,000
+required for their services
+isn't free.
+
+29
+00:02:08,120 --> 00:02:12,810
+And, like many open source projects,
+Vagrant Manager doesn't meet these standards.
+
+30
+00:02:15,720 --> 00:02:19,330
+Thankfully, `brew install` will have
+already programmatically validated
+
+31
+00:02:19,331 --> 00:02:24,240
+our Vagrant Manager download using
+the SHA-256 included in the cask.
+
+32
+00:02:26,180 --> 00:02:31,030
+Research Vagrant Manager and Homebrew as
+needed and move forward if you so choose.
+
+33
+00:02:33,480 --> 00:02:39,330
+To move forward, select "Show in Finder",
+right click the Vagrant Manager icon,
+
+
+34
+00:02:39,331 --> 00:02:44,360
+select "Open" from the menu, and click
+"Open" again on the Gatekeeper prompt.
+
+35
+00:02:46,900 --> 00:02:51,540
+Doing so will automatically add a security
+settings exception for Vagrant Manager.
+
+36
+00:02:52,720 --> 00:02:56,060
+Next time we open it,
+we won't have to repeat this process.
+
+37
+00:02:58,750 --> 00:03:02,690
+Vagrant Manager itself is now prompting
+about automatic updates.
+
+38
+00:03:03,900 --> 00:03:07,810
+I'm going to decline for now,
+but feel free to accept as you see fit.
+
+39
+00:03:11,270 --> 00:03:13,570
+To access Vagrant Manager
+now that it's running,
+
+40
+00:03:13,571 --> 00:03:16,000
+click the newly introduced
+"V" icon
+
+41
+00:03:16,001 --> 00:03:19,060
+in the upper right section
+of the macOS status bar.
+
+42
+00:03:20,270 --> 00:03:21,660
+Our install looks good.
