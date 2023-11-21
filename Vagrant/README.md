@@ -257,4 +257,13 @@
     <td><p>▶️ <a href="https://www.youtube.com/watch?v=9vDaDA0UgeY"><b>Watch</b></a></p></td>
     <td><p>📜 <a href="05.Graphical.03..Installing.Vagrant.Manager.on.macOS.12/README.md"><b>Transcript</b></a></p></td>
   </tr>
+  <tr>
+    <td><p><b>4.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=YttcLQynjEE">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/YttcLQynjEE/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Installing Vagrant Manager on Windows 10</b></p></td>
+    <td><p>▶️ <a href="https://www.youtube.com/watch?v=YttcLQynjEE"><b>Watch</b></a></p></td>
+    <td><p>📜 <a href="05.Graphical.04..Installing.Vagrant.Manager.on.Windows.10/README.md"><b>Transcript</b></a></p></td>
+  </tr>
 </table>

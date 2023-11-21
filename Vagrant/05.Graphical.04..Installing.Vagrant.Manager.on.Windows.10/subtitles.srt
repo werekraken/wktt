@@ -1,0 +1,258 @@
+1
+00:00:01,360 --> 00:00:03,450
+Another interesting GUI tool,
+
+2
+00:00:03,451 --> 00:00:06,690
+especially when using vagrant frequently,
+is Vagrant Manager.
+
+3
+00:00:08,690 --> 00:00:13,570
+Per the project README, "Vagrant Manager
+is a Windows status bar menu app that lets
+
+4
+00:00:13,571 --> 00:00:17,420
+you manage all of your vagrant machines
+from one central location."
+
+5
+00:00:19,420 --> 00:00:22,390
+Vagrant Manager is also
+available for macOS.
+
+6
+00:00:23,690 --> 00:00:28,270
+However, unfortunately, Vagrant Manager
+isn't available on Linux distros,
+
+7
+00:00:28,271 --> 00:00:30,150
+like Ubuntu,
+at present.
+
+8
+00:00:33,240 --> 00:00:36,150
+We're back on our Windows 10
+baremetal environment
+
+9
+00:00:36,151 --> 00:00:42,150
+with the PSWindowsUpdate PowerShell module,
+VirtualBox, and vagrant installed.
+
+10
+00:00:48,300 --> 00:00:53,300
+Vagrant Manager requires the `vagrant`
+command to be in your `$env:PATH`--
+
+11
+00:00:53,301 --> 00:00:56,510
+we just verified that this need is met
+with our version check.
+
+12
+00:00:58,720 --> 00:01:01,690
+Next, we want to ensure
+that our environment is up-to-date.
+
+13
+00:01:03,660 --> 00:01:05,450
+The basic environment is.
+
+14
+00:01:08,120 --> 00:01:11,870
+If updates are needed, they can
+be installed with a few extra flags.
+
+15
+00:01:12,780 --> 00:01:17,390
+Be sure to only use the `-AutoReboot` flag
+if now is a suitable time for a reboot.
+
+16
+00:01:19,870 --> 00:01:23,450
+With our system updated,
+we're ready to install Vagrant Manager.
+
+17
+00:01:26,240 --> 00:01:30,510
+Let's download the Vagrant Manager
+setup executable from the latest release.
+
+18
+00:01:33,420 --> 00:01:38,210
+Unfortunately, this project doesn't provide
+us with the means to validate our download--
+
+19
+00:01:38,211 --> 00:01:40,450
+no checksums or similar
+are included.
+
+20
+00:01:42,120 --> 00:01:44,060
+However, hope is not lost.
+
+21
+00:01:46,480 --> 00:01:49,090
+Chocolatey is a well-known
+package manager
+
+22
+00:01:49,091 --> 00:01:52,600
+facilitating automated software
+installations on Windows.
+
+23
+00:01:54,480 --> 00:01:57,840
+This package manager itself
+is out-of-scope for now,
+
+24
+00:01:57,841 --> 00:02:01,810
+but that doesn't mean we can harvest
+some useful information from the project.
+
+25
+00:02:04,120 --> 00:02:07,510
+The Chocolatey install PowerShell script
+for Vagrant Manager
+
+26
+00:02:07,511 --> 00:02:12,420
+includes a SHA-256 of the same setup `.exe`
+we just downloaded.
+
+27
+00:02:15,060 --> 00:02:18,600
+Verifying that our download
+has the same SHA-256
+
+28
+00:02:18,601 --> 00:02:22,600
+reduces our chances of unnoticed
+file corruption or tampering.
+
+29
+00:02:24,810 --> 00:02:29,390
+For basic validation of an asset securely
+downloaded from a trusted domain--
+
+30
+00:02:29,391 --> 00:02:33,450
+such as this--I'm comfortable
+with a simple visual comparison.
+
+31
+00:02:35,120 --> 00:02:38,720
+I generally compare
+the first and last 4-6 characters,
+
+32
+00:02:38,721 --> 00:02:41,420
+then check one or two random spots
+in the middle.
+
+33
+00:02:43,270 --> 00:02:46,150
+Compare the hashes programmatically
+as you see fit.
+
+34
+00:02:48,690 --> 00:02:50,360
+This download looks good to me.
+
+35
+00:02:51,720 --> 00:02:56,810
+Research Vagrant Manager and Chocolatey
+as needed and move forward if you so choose.
+
+36
+00:02:59,240 --> 00:03:01,660
+The Chocolatey PowerShell script
+also gives us
+
+37
+00:03:01,661 --> 00:03:05,390
+the arguments needed
+to have a silent, promptless install.
+
+38
+00:03:07,450 --> 00:03:12,270
+Let's install Vagrant Manager by running
+the setup `.exe` with these arguments.
+
+39
+00:03:14,120 --> 00:03:17,270
+This will both install
+and open Vagrant Manager--
+
+40
+00:03:17,271 --> 00:03:19,150
+which can take
+several seconds.
+
+41
+00:03:22,300 --> 00:03:24,870
+To access Vagrant Manager
+once it's running,
+
+42
+00:03:24,871 --> 00:03:27,240
+click the newly introduced
+"V" icon
+
+43
+00:03:27,241 --> 00:03:31,210
+in the notification area
+at the right end of the Windows taskbar.
+
+44
+00:03:32,750 --> 00:03:34,180
+Our install looks good.
+
+45
+00:03:36,210 --> 00:03:39,540
+To finalize initial setup,
+there's one more step--
+
+46
+00:03:39,541 --> 00:03:44,090
+and we're only prompted the second time
+we open Vagrant Manager on Windows.
+
+47
+00:03:46,240 --> 00:03:49,540
+Let's exit and wait
+for the "V" icon to disappear.
+
+48
+00:03:50,570 --> 00:03:55,810
+Then reopen Vagrant Manager--
+I'm going to do so via PowerShell,
+
+49
+00:03:55,811 --> 00:03:58,450
+but using the Start menu
+will work just as well.
+
+50
+00:04:01,330 --> 00:04:03,330
+On second open,
+we're immediately met
+
+51
+00:04:03,331 --> 00:04:06,780
+with a Vagrant Manager prompt
+about automatic updates.
+
+52
+00:04:08,210 --> 00:04:12,150
+I'm going to decline for now,
+but feel free to accept as you see fit.
+
+53
+00:04:14,090 --> 00:04:15,270
+And we're done.
