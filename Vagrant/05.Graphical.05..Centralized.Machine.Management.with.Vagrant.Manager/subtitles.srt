@@ -1,0 +1,303 @@
+1
+00:00:01,510 --> 00:00:04,540
+Here we have our new install
+of Vagrant Manager:
+
+2
+00:00:04,541 --> 00:00:08,510
+a GUI tool providing centralized management
+of vagrant machines.
+
+3
+00:00:10,090 --> 00:00:14,390
+Vagrant Manager is only available
+on macOS and Windows at present.
+
+4
+00:00:15,210 --> 00:00:19,420
+So, we're back on our
+macOS 12.6.3 baremetal environment.
+
+5
+00:00:22,000 --> 00:00:25,570
+I've copied our demo project
+over from my Ubuntu environment.
+
+6
+00:00:27,240 --> 00:00:31,270
+And I've installed vagrant-vbguest
+in my macOS environment.
+
+7
+00:00:33,330 --> 00:00:38,030
+Finally, I created and destroyed this
+vagrant managed machine a few minutes ago.
+
+8
+00:00:39,360 --> 00:00:43,060
+This ensures that the one time
+events and operations we've already seen,
+
+9
+00:00:43,061 --> 00:00:45,450
+like box download,
+have been triggered.
+
+10
+00:00:47,900 --> 00:00:52,120
+At this point, my macOS vagrant setup
+should be in the same essential state
+
+11
+00:00:52,121 --> 00:00:55,510
+as my Ubuntu vagrant setup was
+when we last saw it.
+
+12
+00:00:57,960 --> 00:01:01,360
+Before we dig in,
+I'm going to remove `gui=true`.
+
+13
+00:01:02,300 --> 00:01:06,150
+This will reduce graphical clutter
+while we explore Vagrant Manager.
+
+14
+00:01:07,210 --> 00:01:08,270
+Let's save that.
+
+15
+00:01:08,600 --> 00:01:10,480
+And open Vagrant Manager.
+
+16
+00:01:15,510 --> 00:01:17,870
+Currently, it doesn't
+show any machines.
+
+17
+00:01:18,960 --> 00:01:23,090
+Let's refresh--
+still nothing.
+
+18
+00:01:24,510 --> 00:01:28,420
+This is an important take away:
+without additional configuration,
+
+19
+00:01:28,421 --> 00:01:32,180
+Vagrant Manager ignores machines
+in the "not created" state.
+
+20
+00:01:33,120 --> 00:01:34,510
+Let's bring up
+our machine.
+
+21
+00:01:52,960 --> 00:01:54,390
+Time to refresh again.
+
+22
+00:01:58,300 --> 00:02:02,060
+Now we can see a menu entry
+for our project in Vagrant Manager.
+
+23
+00:02:03,450 --> 00:02:07,120
+Hover over the entry
+and a menu of options will be presented.
+
+24
+00:02:09,420 --> 00:02:13,660
+With a single click on "SSH",
+Vagrant Manager will open a terminal,
+
+25
+00:02:13,661 --> 00:02:17,390
+change to the project directory,
+and run `vagrant ssh`.
+
+26
+00:02:17,960 --> 00:02:20,390
+One click and we're
+logged in to our vm.
+
+27
+00:02:22,780 --> 00:02:26,300
+By selecting "Open in Terminal",
+Vagrant Manager will open a terminal
+
+28
+00:02:26,301 --> 00:02:30,690
+and change to the project directory--
+no automated `vagrant ssh` this time.
+
+29
+00:02:31,420 --> 00:02:33,750
+However, you'll land
+in the project directory
+
+30
+00:02:33,751 --> 00:02:37,750
+with the full command line,
+including `vagrant ssh`, at your disposal.
+
+31
+00:02:39,630 --> 00:02:42,690
+Let's select "SSH"
+to login to our machine.
+
+32
+00:02:44,840 --> 00:02:49,150
+Now we have a new terminal window sitting
+at the prompt of our internal environment.
+
+33
+00:02:50,150 --> 00:02:53,570
+We can run any commands available
+in our vm like normal.
+
+34
+00:02:55,480 --> 00:02:57,210
+When ready,
+we can log out.
+
+35
+00:02:57,480 --> 00:03:00,300
+And we end up at the prompt
+of our external environment.
+
+36
+00:03:01,420 --> 00:03:05,270
+This is the same place where "Open
+in Terminal" would have taken us directly.
+
+37
+00:03:07,030 --> 00:03:11,000
+Here we can run any commands available
+to our baremetal environment like normal.
+
+38
+00:03:11,390 --> 00:03:13,960
+Surprise, surprise,
+our machine is running.
+
+39
+00:03:15,930 --> 00:03:19,570
+Close out of the terminal window
+using standard methods when ready.
+
+40
+00:03:21,660 --> 00:03:23,180
+As we saw a moment ago,
+
+41
+00:03:23,181 --> 00:03:26,660
+Vagrant Manager won't present machines
+in the "not created" state.
+
+42
+00:03:28,150 --> 00:03:31,600
+If we destroy this machine,
+it will be removed from the menu.
+
+43
+00:03:34,000 --> 00:03:38,780
+If you want specific machines present
+in Vagrant Manager even when "not created",
+
+44
+00:03:38,781 --> 00:03:40,210
+you can bookmark them.
+
+45
+00:03:41,660 --> 00:03:43,660
+Let's do so
+for demo now.
+
+46
+00:03:51,180 --> 00:03:53,420
+And then destroy
+from Vagrant Manager.
+
+47
+00:03:54,720 --> 00:03:57,480
+Click confirm to move forward
+with the destruction.
+
+48
+00:03:59,570 --> 00:04:03,240
+A task window opens
+and runs `vagrant destroy` on our behalf.
+
+49
+00:04:04,960 --> 00:04:06,300
+Let's close
+out of that.
+
+50
+00:04:10,000 --> 00:04:12,750
+We can see that Vagrant Manager
+has an entry for demo
+
+51
+00:04:12,751 --> 00:04:15,450
+despite the fact that
+it's in the "not created" state.
+
+52
+00:04:17,450 --> 00:04:20,330
+Now we can bring up our machine
+using Vagrant Manager.
+
+53
+00:04:22,450 --> 00:04:25,660
+A task window opens
+and runs `vagrant up` for us.
+
+54
+00:04:28,300 --> 00:04:32,600
+Vagrant Manager exposes many
+useful vagrant actions in clickable form.
+
+55
+00:04:33,900 --> 00:04:36,600
+If you're most comfortable
+using a GUI environment,
+
+56
+00:04:36,601 --> 00:04:40,000
+this tool may become a significant part
+of your vagrant workflow.
+
+57
+00:04:42,300 --> 00:04:47,060
+My main use case for Vagrant Manager
+is to quickly locate abandoned vms.
+
+58
+00:04:48,450 --> 00:04:52,660
+When priorities shift suddenly,
+it's all too easy to leave machines behind,
+
+59
+00:04:52,661 --> 00:04:55,420
+needlessly consuming
+finite resources.
+
+60
+00:04:56,480 --> 00:05:00,240
+For me, Vagrant Manager simplifies
+reclaiming cpu, memory,
+
+61
+00:05:00,241 --> 00:05:04,450
+and storage resources currently tied up
+by discarded vagrant machines.
+
+62
+00:05:05,750 --> 00:05:06,630
+Let's clean up.
