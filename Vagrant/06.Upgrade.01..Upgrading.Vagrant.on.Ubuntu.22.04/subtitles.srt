@@ -1,0 +1,246 @@
+1
+00:00:01,480 --> 00:00:05,360
+We're back on our Ubuntu 22.04
+baremetal environment.
+
+2
+00:00:06,360 --> 00:00:07,900
+Let's make sure
+it's up-to-date.
+
+3
+00:00:12,240 --> 00:00:13,720
+It is.
+
+4
+00:00:13,721 --> 00:00:18,750
+And this includes the vagrant and VirtualBox
+packages we previously installed--
+
+5
+00:00:18,751 --> 00:00:23,420
+we simply used the native distro packages
+included with Ubuntu 22.04.
+
+6
+00:00:24,750 --> 00:00:27,900
+This is the installation pattern
+I would commonly use
+
+7
+00:00:27,901 --> 00:00:29,960
+and it's enough
+for most use cases.
+
+8
+00:00:31,750 --> 00:00:33,510
+If we just want to ensure
+that our environment
+
+9
+00:00:33,511 --> 00:00:36,480
+has the latest security patches,
+we're already done.
+
+10
+00:00:37,510 --> 00:00:40,750
+We're relying on the Ubuntu project
+for a whole operating-systems-worth
+
+11
+00:00:40,751 --> 00:00:43,510
+of security updates--
+what's a few more packages?
+
+12
+00:00:45,510 --> 00:00:48,750
+That said, there may be times
+when it becomes worthwhile
+
+13
+00:00:48,751 --> 00:00:52,960
+to single out vagrant and install
+the newest available version--
+
+14
+00:00:52,961 --> 00:00:57,150
+say, when you need a specific fix
+or feature found in newer vagrant builds.
+
+15
+00:00:59,330 --> 00:01:02,570
+Let's look at the upgrade process now
+using the official vagrant
+
+16
+00:01:02,571 --> 00:01:06,030
+installation documentation
+for Ubuntu as guidance.
+
+17
+00:01:08,180 --> 00:01:10,120
+Our goal here
+is to upgrade vagrant
+
+18
+00:01:10,121 --> 00:01:14,690
+to the latest HashiCorp provided `.deb`
+suitable for Ubuntu 22.04.
+
+19
+00:01:16,360 --> 00:01:19,870
+vagrant itself is created
+and maintained by HashiCorp.
+
+20
+00:01:20,840 --> 00:01:24,900
+Trusting HashiCorp packages
+when already using vagrant seems sensible.
+
+21
+00:01:26,900 --> 00:01:29,930
+Let's download the `.gpg` key
+found on this page.
+
+22
+00:01:30,750 --> 00:01:34,270
+However, let's write it
+to a file in our home directory for now--
+
+23
+00:01:34,271 --> 00:01:37,900
+we want a bit more verification
+before writing it to a restricted path.
+
+24
+00:01:40,270 --> 00:01:44,000
+Over on the security page
+included in HashiCorp's trust center,
+
+25
+00:01:44,001 --> 00:01:46,270
+we can find the fingerprint
+for the `.gpg` key
+
+26
+00:01:46,271 --> 00:01:49,810
+used for signing linux packages,
+including `.deb`s.
+
+27
+00:01:51,570 --> 00:01:56,000
+For basic validation of an asset securely
+downloaded from a trusted domain--
+
+28
+00:01:56,001 --> 00:01:59,780
+such as this--I'm comfortable
+with a simple visual comparison.
+
+29
+00:02:01,210 --> 00:02:04,510
+I generally compare
+the first and last 4-6 characters,
+
+30
+00:02:04,511 --> 00:02:07,000
+then check one or two random spots
+in the middle.
+
+31
+00:02:07,780 --> 00:02:10,660
+Compare the fingerprints programmatically
+as you see fit.
+
+32
+00:02:12,120 --> 00:02:14,090
+This download
+looks good to me.
+
+33
+00:02:14,091 --> 00:02:15,750
+And now I'll move it
+into place.
+
+34
+00:02:17,630 --> 00:02:21,930
+Next, we need to add the HashiCorp
+package repository to our sources lists.
+
+35
+00:02:23,210 --> 00:02:27,540
+To do so, I'm going copy and paste
+the command from the install doc verbatim.
+
+36
+00:02:28,810 --> 00:02:32,480
+It's worth noting that this one-liner
+contains a command substitution.
+
+37
+00:02:33,210 --> 00:02:36,480
+Be sure you understand each component
+of a command before running it.
+
+38
+00:02:38,150 --> 00:02:40,660
+With the HashiCorp
+package source configured,
+
+39
+00:02:40,661 --> 00:02:44,030
+we again need to update
+our indexes of available packages.
+
+40
+00:02:45,420 --> 00:02:49,330
+Now vagrant should have
+an upgrade candidate--let's install it.
+
+41
+00:02:53,930 --> 00:02:56,660
+To keep things tidy, let's clean up
+the stale dependencies
+
+42
+00:02:56,661 --> 00:02:59,600
+which were pulled in
+with our previous vagrant installation.
+
+43
+00:03:02,900 --> 00:03:04,510
+Time for basic validation.
+
+44
+00:03:06,000 --> 00:03:09,780
+The upgrade looks good--
+at least on the surface.
+
+45
+00:03:09,781 --> 00:03:12,540
+However, there is a problem
+caused by this upgrade
+
+46
+00:03:12,541 --> 00:03:14,660
+and listing our plugins
+will expose it.
+
+47
+00:03:15,780 --> 00:03:18,000
+In this case, reinstalling our plugins
+to pull in
+
+48
+00:03:18,001 --> 00:03:21,570
+suitable versions of dependencies
+is the correct course of action.
+
+49
+00:03:23,390 --> 00:03:27,660
+Now listing, and more importantly using,
+our plugins will work as expected.
+
+50
+00:03:29,120 --> 00:03:30,150
+And we're done.

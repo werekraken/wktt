@@ -276,3 +276,17 @@
     <td><p>📜 <a href="05.Graphical.05..Centralized.Machine.Management.with.Vagrant.Manager/README.md"><b>Transcript</b></a></p></td>
   </tr>
 </table>
+
+## Upgrades
+
+<table>
+  <tr>
+    <td><p><b>1.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=tRqjJPvRCS8">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/tRqjJPvRCS8/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Upgrading Vagrant on Ubuntu 22.04</b></p></td>
+    <td><p>▶️ <a href="https://www.youtube.com/watch?v=tRqjJPvRCS8"><b>Watch</b></a></p></td>
+    <td><p>📜 <a href="06.Upgrade.01..Upgrading.Vagrant.on.Ubuntu.22.04/README.md"><b>Transcript</b></a></p></td>
+  </tr>
+</table>
