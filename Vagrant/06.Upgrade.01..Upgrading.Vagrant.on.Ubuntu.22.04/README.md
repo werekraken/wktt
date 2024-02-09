@@ -89,6 +89,7 @@ werekraken@ubuntu:~$ sudo apt-get autoremove
 Time for basic validation. The upgrade looks good--at least on the surface.
 ```
 werekraken@ubuntu:~$ vagrant --version
+...
 ```
 
 However, there is a problem caused by this upgrade and listing our plugins will expose it.
