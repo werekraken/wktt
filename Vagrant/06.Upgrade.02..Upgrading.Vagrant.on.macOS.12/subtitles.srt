@@ -1,0 +1,37 @@
+1
+00:00:01,030 --> 00:00:04,030
+We're back on our macOS 12
+baremetal environment.
+
+2
+00:00:04,930 --> 00:00:07,270
+Let's make sure
+the basic system is up-to-date.
+
+3
+00:00:10,060 --> 00:00:11,060
+It is.
+
+4
+00:00:11,900 --> 00:00:15,630
+To upgrade vagrant and VirtualBox,
+we simply run the same subcommands
+
+5
+00:00:15,631 --> 00:00:19,210
+we used previously to check
+if brew managed installs were up-to-date.
+
+6
+00:00:20,060 --> 00:00:21,060
+There it goes.
+
+7
+00:00:30,450 --> 00:00:32,240
+Time for some
+basic validation.
+
+8
+00:00:36,000 --> 00:00:37,390
+And the upgrades
+look good.

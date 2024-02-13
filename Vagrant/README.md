@@ -289,4 +289,13 @@
     <td><p>▶️ <a href="https://www.youtube.com/watch?v=tRqjJPvRCS8"><b>Watch</b></a></p></td>
     <td><p>📜 <a href="06.Upgrade.01..Upgrading.Vagrant.on.Ubuntu.22.04/README.md"><b>Transcript</b></a></p></td>
   </tr>
+  <tr>
+    <td><p><b>2.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=0PKT7xBZiXo">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/0PKT7xBZiXo/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Upgrading Vagrant on macOS 12</b></p></td>
+    <td><p>▶️ <a href="https://www.youtube.com/watch?v=0PKT7xBZiXo"><b>Watch</b></a></p></td>
+    <td><p>📜 <a href="06.Upgrade.02..Upgrading.Vagrant.on.macOS.12/README.md"><b>Transcript</b></a></p></td>
+  </tr>
 </table>
