@@ -301,4 +301,13 @@
     <td><p>▶️ <a href="https://www.youtube.com/watch?v=0PKT7xBZiXo"><b>Watch</b></a></p></td>
     <td><p>📜 <a href="06.Upgrade.02..Upgrading.Vagrant.on.macOS.12/README.md"><b>Transcript</b></a></p></td>
   </tr>
+  <tr>
+    <td><p><b>3.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=_8B-tTDwHQA">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/_8B-tTDwHQA/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Upgrading Vagrant on Windows 10</b></p></td>
+    <td><p>▶️ <a href="https://www.youtube.com/watch?v=_8B-tTDwHQA"><b>Watch</b></a></p></td>
+    <td><p>📜 <a href="06.Upgrade.03..Upgrading.Vagrant.on.Windows.10/README.md"><b>Transcript</b></a></p></td>
+  </tr>
 </table>

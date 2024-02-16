@@ -1,0 +1,51 @@
+1
+00:00:02,390 --> 00:00:05,120
+We're back on our Windows 10
+baremetal environment.
+
+2
+00:00:07,660 --> 00:00:09,960
+Let's make sure
+the basic system is up-to-date.
+
+3
+00:00:12,180 --> 00:00:13,180
+It is.
+
+4
+00:00:14,360 --> 00:00:18,360
+If updates are needed, they can
+be installed with a few extra flags.
+
+5
+00:00:18,361 --> 00:00:22,600
+Be sure to only use the `-AutoReboot` flag
+if now is a suitable time for a reboot.
+
+6
+00:00:25,120 --> 00:00:26,540
+Let's check winget.
+
+7
+00:00:28,240 --> 00:00:30,720
+We can see there are
+a few upgrades available,
+
+8
+00:00:30,721 --> 00:00:33,000
+including vagrant
+and VirtualBox.
+
+9
+00:00:33,690 --> 00:00:35,030
+Let's install these.
+
+10
+00:00:57,900 --> 00:00:59,330
+Time for some
+validation.
+
+11
+00:01:13,270 --> 00:01:14,720
+The upgrades
+look good.
