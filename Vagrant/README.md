@@ -310,4 +310,13 @@
     <td><p>▶️ <a href="https://www.youtube.com/watch?v=_8B-tTDwHQA"><b>Watch</b></a></p></td>
     <td><p>📜 <a href="06.Upgrade.03..Upgrading.Vagrant.on.Windows.10/README.md"><b>Transcript</b></a></p></td>
   </tr>
+  <tr>
+    <td><p><b>4.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=YDJm83MldBQ">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/YDJm83MldBQ/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Upgrading Vagrant Plugins</b></p></td>
+    <td><p>▶️ <a href="https://www.youtube.com/watch?v=YDJm83MldBQ"><b>Watch</b></a></p></td>
+    <td><p>📜 <a href="06.Upgrade.04..Upgrading.Vagrant.Plugins/README.md"><b>Transcript</b></a></p></td>
+  </tr>
 </table>

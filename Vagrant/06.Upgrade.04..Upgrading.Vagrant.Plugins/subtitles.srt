@@ -1,0 +1,21 @@
+1
+00:00:01,570 --> 00:00:04,900
+Here we have an Ubuntu 22.04
+baremetal environment
+
+2
+00:00:04,901 --> 00:00:07,690
+with an outdated
+vagrant-vbguest plugin.
+
+3
+00:00:09,450 --> 00:00:10,480
+Let's upgrade it.
+
+4
+00:00:13,660 --> 00:00:14,870
+Time to verify.
+
+5
+00:00:16,390 --> 00:00:17,390
+Looks good.
