@@ -244,11 +244,11 @@
   </tr>
   <tr>
     <td><p><b>2.</b></p></td>
-    <td><p><a href="https://www.youtube.com/watch?v=NmBaUkhmOzI">
-      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/NmBaUkhmOzI/mqdefault.jpg" width="50%" />
+    <td><p><a href="https://www.youtube.com/watch?v=11IxcVxTOEA">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/11IxcVxTOEA/mqdefault.jpg" width="50%" />
     </a></p></td>
     <td><p><b>Accessing the Console (or GUI) via Vagrantfile</b></p></td>
-    <td><p>▶️ <a href="https://www.youtube.com/watch?v=NmBaUkhmOzI"><b>Watch</b></a></p></td>
+    <td><p>▶️ <a href="https://www.youtube.com/watch?v=11IxcVxTOEA"><b>Watch</b></a></p></td>
     <td><p>📜 <a href="05.Graphical.02..Accessing.the.Console.or.GUI.via.Vagrantfile/README.md"><b>Transcript</b></a></p></td>
   </tr>
   <tr>

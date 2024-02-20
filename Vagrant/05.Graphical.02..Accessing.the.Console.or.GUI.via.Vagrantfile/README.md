@@ -1,11 +1,12 @@
 # Accessing the Console (or GUI) via Vagrantfile [Vagrant: Development Environments Made Easy]
 
-https://www.youtube.com/watch?v=NmBaUkhmOzI
+https://www.youtube.com/watch?v=11IxcVxTOEA
 
 ## Resources
 
 * 🧱 [Materials..4.3.0](../04.Scripts.03..The.Single.Command.Principle/Materials..4.3.0) (0:00 --> 0:18)
-* 🧱 [Materials..5.2.0](../05.Graphical.02..Accessing.the.Console.or.GUI.via.Vagrantfile/Materials..5.2.0) (0:25 --> 1:02)
+* 🧱 [Materials..5.2.0](../05.Graphical.02..Accessing.the.Console.or.GUI.via.Vagrantfile/Materials..5.2.0) (0:25 --> 1:01)
+* 🧱 [Materials..5.2.1](../05.Graphical.02..Accessing.the.Console.or.GUI.via.Vagrantfile/Materials..5.2.1) (1:05 --> 1:11)
 * 🗨 [Subtitles](subtitles.srt)
 
 ## Transcript
@@ -38,5 +39,12 @@ Time to clean up.
 werekraken@ubuntu:~/demo$ vagrant destroy -f
 ...
 ```
-
 The console window is automatically closed out during destruction.
+
+I'm going to remove `gui = true` to reduce graphical clutter, but feel free to skip or delay this step as you see fit.
+```
+werekraken@ubuntu:~/demo$ vi Vagrantfile
+...
+-    v.gui = true
+...
+```

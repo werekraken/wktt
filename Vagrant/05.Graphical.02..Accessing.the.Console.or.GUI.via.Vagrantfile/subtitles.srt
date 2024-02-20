@@ -50,3 +50,13 @@ Time to clean up.
 00:00:55,420 --> 00:00:59,120
 The console window is automatically
 closed out during destruction.
+
+12
+00:01:00,420 --> 00:01:04,510
+I'm going to remove `gui = true`
+to reduce graphical clutter,
+
+13
+00:01:04,511 --> 00:01:07,780
+but feel free to skip or delay
+this step as you see fit.
