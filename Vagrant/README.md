@@ -271,11 +271,11 @@
   </tr>
   <tr>
     <td><p><b>5.</b></p></td>
-    <td><p><a href="https://www.youtube.com/watch?v=3urPL19uUNc">
-      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/3urPL19uUNc/mqdefault.jpg" width="50%" />
+    <td><p><a href="https://www.youtube.com/watch?v=Bt0CpB1zGc0">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/Bt0CpB1zGc0/mqdefault.jpg" width="50%" />
     </a></p></td>
     <td><p><b>Centralized Machine Management with Vagrant Manager</b></p></td>
-    <td><p>▶️ <a href="https://www.youtube.com/watch?v=3urPL19uUNc"><b>Watch</b></a></p></td>
+    <td><p>▶️ <a href="https://www.youtube.com/watch?v=Bt0CpB1zGc0"><b>Watch</b></a></p></td>
     <td><p>📜 <a href="05.Graphical.05..Centralized.Machine.Management.with.Vagrant.Manager/README.md"><b>Transcript</b></a></p></td>
   </tr>
 </table>

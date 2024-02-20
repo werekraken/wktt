@@ -1,11 +1,9 @@
 # Centralized Machine Management with Vagrant Manager [Vagrant: Development Environments Made Easy]
 
-https://www.youtube.com/watch?v=3urPL19uUNc
+https://www.youtube.com/watch?v=Bt0CpB1zGc0
 
 ## Resources
 
-* 🧱 [Materials..5.2.0](../05.Graphical.02..Accessing.the.Console.or.GUI.via.Vagrantfile/Materials..5.2.0) (0:00 --> 0:57)
-* 🧱 [Materials..5.5.0](../05.Graphical.05..Centralized.Machine.Management.with.Vagrant.Manager/Materials..5.5.0) (1:07 --> 5:21)
 * 🗨 [Subtitles](subtitles.srt)
 
 ## Transcript
@@ -41,16 +39,7 @@ werekraken@macos:~/demo$ echo | cat .vagrant/machines/default/virtualbox/action_
 ```
 At this point, my macOS vagrant setup should be in the same essential state as my Ubuntu vagrant setup was when we last saw it.
 
-Before we dig in, I'm going to remove `gui=true`. This will reduce graphical clutter while we explore Vagrant Manager.
-```
-werekraken@macos:~/demo$ vi Vagrantfile 
-...
--    v.gui = true
-...
-```
-Let's save that.
-
-And open Vagrant Manager. Currently, it doesn't show any machines. Let's refresh--still nothing.
+Let's open Vagrant Manager. Currently, it doesn't show any machines. Let's refresh--still nothing.
 
 This is an important take away: without additional configuration, Vagrant Manager ignores machines in the "not created" state.
 ```
