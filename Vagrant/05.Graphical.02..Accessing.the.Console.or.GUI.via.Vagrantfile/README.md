@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=11IxcVxTOEA
 
 * 🧱 [Materials..4.3.0](../04.Scripts.03..The.Single.Command.Principle/Materials..4.3.0) (0:00 --> 0:18)
 * 🧱 [Materials..5.2.0](../05.Graphical.02..Accessing.the.Console.or.GUI.via.Vagrantfile/Materials..5.2.0) (0:25 --> 1:01)
-* 🧱 [Materials..5.2.1](../05.Graphical.02..Accessing.the.Console.or.GUI.via.Vagrantfile/Materials..5.2.1) (1:05 --> 1:11)
+* 🧱 [Materials..5.2.1](../05.Graphical.02..Accessing.the.Console.or.GUI.via.Vagrantfile/Materials..5.2.1) (1:05 --> 1:10)
 * 🗨 [Subtitles](subtitles.srt)
 
 ## Transcript
