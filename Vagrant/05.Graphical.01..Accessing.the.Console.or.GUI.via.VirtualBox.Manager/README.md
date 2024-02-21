@@ -26,7 +26,13 @@ In the case of VirtualBox, we can simply open the VirtualBox Manager, select the
 werekraken@ubuntu:~/demo$ virtualbox
 ...
 ```
-This method is especially useful for machines that are already running. Let's clean up.
+
+This method is especially useful for machines that are already running.
+```
+[vagrant@localhost ~]$ 
+```
+
+Let's clean up.
 ```
 werekraken@ubuntu:~/demo$ vagrant destroy -f
 ...

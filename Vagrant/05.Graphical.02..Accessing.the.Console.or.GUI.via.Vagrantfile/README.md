@@ -33,6 +33,9 @@ werekraken@ubuntu:~/demo$ vagrant up
 Our machine is now booted, but vagrant is still configuring the environment--let's let it finish.
 
 `vagrant up` is nearly done. And let's login.
+```
+[vagrant@localhost ~]$ 
+```
 
 Time to clean up.
 ```
