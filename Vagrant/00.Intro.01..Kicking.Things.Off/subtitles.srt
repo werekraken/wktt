@@ -1,0 +1,194 @@
+1
+00:00:01,360 --> 00:00:04,540
+Hey guys. Werekraken here.
+Welcome to the channel.
+
+2
+00:00:06,180 --> 00:00:09,300
+Today we'll be talking about vagrant--
+an awesome tool
+
+3
+00:00:09,301 --> 00:00:13,420
+which makes the creation, use,
+and clean up of development environments,
+
+4
+00:00:13,421 --> 00:00:17,330
+generally in the form of virtual machines,
+simple and repeatable.
+
+5
+00:00:19,270 --> 00:00:21,810
+But first,
+ladies, gentlemen:
+
+6
+00:00:21,811 --> 00:00:25,720
+I don't care if you prefer linux or unix,
+like and subscribe.
+
+7
+00:00:25,721 --> 00:00:27,180
+And don't forget
+to comment.
+
+8
+00:00:29,660 --> 00:00:32,090
+So, here we are
+for my first video series.
+
+9
+00:00:33,150 --> 00:00:35,810
+I wanted to kick things off
+with vagrant fundamentals
+
+10
+00:00:35,811 --> 00:00:40,330
+since I use this tool nearly every day
+in my work as a computing professional.
+
+11
+00:00:42,450 --> 00:00:44,870
+One of vagrant's strongest features
+is that it provides
+
+12
+00:00:44,871 --> 00:00:48,660
+a clean, well-known starting environment
+that others can reproduce.
+
+13
+00:00:50,660 --> 00:00:53,390
+In this series, we'll explore
+the foundational knowledge
+
+14
+00:00:53,391 --> 00:00:55,120
+to use vagrant
+in this way.
+
+15
+00:00:58,150 --> 00:00:59,930
+The content is
+primarily targeted
+
+16
+00:00:59,931 --> 00:01:04,030
+at established or aspiring
+computing professionals and hobbyists.
+
+17
+00:01:06,390 --> 00:01:09,150
+I assume the viewer has
+basic command line proficiency
+
+18
+00:01:09,151 --> 00:01:11,720
+and won't be stopping
+to describe every command.
+
+19
+00:01:15,780 --> 00:01:18,810
+Visit the project website,
+vagrantup.com,
+
+20
+00:01:18,811 --> 00:01:24,270
+and nearly the first thing you'll see
+is "Development environments simplified."--
+
+21
+00:01:24,271 --> 00:01:27,000
+the vagrant project
+really delivers on this claim.
+
+22
+00:01:30,000 --> 00:01:34,480
+vagrant makes creating a virtual machine
+to research a question, work out a procedure,
+
+23
+00:01:34,481 --> 00:01:37,900
+or develop code against
+more accessible than ever before.
+
+24
+00:01:40,390 --> 00:01:43,750
+The machines are defined in a Vagrantfile:
+plain-text ruby code
+
+25
+00:01:43,751 --> 00:01:46,510
+suitable to be added
+to source control management.
+
+26
+00:01:48,420 --> 00:01:52,270
+Adding a Vagrantfile to your project
+let's you formalize a development, build,
+
+27
+00:01:52,271 --> 00:01:55,780
+or test environment that can be
+passed along, right with the code.
+
+28
+00:01:58,660 --> 00:02:02,390
+We'll look at installation of vagrant
+on several baremetal environments.
+
+29
+00:02:03,930 --> 00:02:07,600
+Feel free to watch just the videos
+matching your baremetal environment--
+
+30
+00:02:07,601 --> 00:02:11,720
+the install videos are structured to include
+the same general information about vagrant,
+
+31
+00:02:11,721 --> 00:02:14,210
+so you won't miss
+any fundamentals by doing so.
+
+32
+00:02:17,090 --> 00:02:21,330
+If you're unsure where you might use vagrant,
+watch the installation on Ubuntu.
+
+33
+00:02:23,090 --> 00:02:26,120
+This should provide a reasonable
+general understanding of the process,
+
+34
+00:02:26,121 --> 00:02:28,600
+in addition to covering
+this specific environment.
+
+35
+00:02:29,570 --> 00:02:32,210
+And it's both the shortest
+installation procedure
+
+36
+00:02:32,211 --> 00:02:34,600
+and the least encumbered
+with extra steps.
+
+37
+00:02:37,600 --> 00:02:41,450
+If you have a different starting environment,
+head over to the vagrantup downloads page
+
+38
+00:02:41,451 --> 00:02:45,720
+and select the appropriate tab to get
+specific guidance on your environment.
+
+39
+00:02:47,510 --> 00:02:49,090
+See you in
+the next video.
