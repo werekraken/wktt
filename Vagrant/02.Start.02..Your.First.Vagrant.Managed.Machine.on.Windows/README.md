@@ -57,7 +57,7 @@ One helpful feature of `vagrant up` is that it automatically downloads the confi
 
 Another option is to use `vagrant box` which let's you directly manage boxes. `vagrant box` includes subcommands such as `add`, `update`, and `remove`.
 
-`vagrant box add` could have been used to download the centos/7 box ahead of `vagrant up`. In this case, we're using the box right away, so there's no advantage to pre-fetching. However, it's an interesting option to keep in mind.
+`vagrant box add` could have been used to download the centos/7 box ahead of `vagrant up`. In this case, we're using the box right away, so there's no advantage to prefetching. However, it's an interesting option to keep in mind.
 
 Now that our machine is running, we can access it with `vagrant ssh`.
 ```
