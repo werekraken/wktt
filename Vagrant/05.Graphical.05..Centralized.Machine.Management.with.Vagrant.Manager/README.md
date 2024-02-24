@@ -4,6 +4,7 @@ https://www.youtube.com/watch?v=Bt0CpB1zGc0
 
 ## Resources
 
+* 🧱 [Materials..5.2.1](../05.Graphical.02..Accessing.the.Console.or.GUI.via.Vagrantfile/Materials..5.2.1) (0:00 --> 5:08)
 * 🗨 [Subtitles](subtitles.srt)
 
 ## Transcript
