@@ -333,4 +333,13 @@
     <td><p>▶️ <a href="https://www.youtube.com/watch?v=YDJm83MldBQ"><b>Watch</b></a></p></td>
     <td><p>📜 <a href="06.Upgrade.04..Upgrading.Vagrant.Plugins/README.md"><b>Transcript</b></a></p></td>
   </tr>
+  <tr>
+    <td><p><b>5.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=7zUs8rhzy38">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/7zUs8rhzy38/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Upgrading Vagrant Boxes</b></p></td>
+    <td><p>▶️ <a href="https://www.youtube.com/watch?v=7zUs8rhzy38"><b>Watch</b></a></p></td>
+    <td><p>📜 <a href="06.Upgrade.05..Upgrading.Vagrant.Boxes/README.md"><b>Transcript</b></a></p></td>
+  </tr>
 </table>

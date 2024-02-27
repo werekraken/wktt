@@ -1,0 +1,77 @@
+1
+00:00:02,930 --> 00:00:06,270
+Here we have an Ubuntu 22.04
+baremetal environment
+
+2
+00:00:06,271 --> 00:00:09,390
+with an outdated
+`centos/7` vagrant box.
+
+3
+00:00:10,270 --> 00:00:11,360
+Let's upgrade it.
+
+4
+00:00:17,540 --> 00:00:18,900
+Time to verify.
+
+5
+00:00:20,870 --> 00:00:24,330
+We can see that the new version
+is present, as was desired.
+
+6
+00:00:25,390 --> 00:00:29,000
+However, it may be surprising to find--
+on first encounter--
+
+7
+00:00:29,001 --> 00:00:31,210
+that the old version
+is still here too.
+
+8
+00:00:33,240 --> 00:00:37,360
+vagrant supports multiple versions
+of the same box at the same time.
+
+9
+00:00:38,450 --> 00:00:41,060
+They can be installed
+and used side-by-side.
+
+10
+00:00:43,120 --> 00:00:47,180
+By default new machines will use
+the latest installed version of a box.
+
+11
+00:00:48,210 --> 00:00:51,450
+However, by adding version constraints
+in Vagrantfile
+
+12
+00:00:51,451 --> 00:00:54,780
+new machines can be configured
+to use an older version.
+
+13
+00:00:56,810 --> 00:00:59,720
+In most cases
+older versions aren't needed
+
+14
+00:00:59,721 --> 00:01:02,900
+and removing them frees up
+precious storage resources.
+
+15
+00:01:03,870 --> 00:01:07,450
+A simple `vagrant box prune`
+will clean things up nicely.
+
+16
+00:01:08,870 --> 00:01:12,480
+Verify again and we can see
+that the old box is now gone.
