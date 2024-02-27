@@ -3,6 +3,20 @@
 * ✅ **Series Complete**
 * ▶️ [**Watch All**](https://www.youtube.com/watch?v=9iNBgqvWcok&list=PLnnJ_WYniuclX8GVwA5KykmoNa1HdkMy5)
 
+## Intro
+
+<table>
+  <tr>
+    <td><p><b>1.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=llkv7PTtQCE">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/llkv7PTtQCE/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Kicking Things Off</b></p></td>
+    <td><p>▶️ <a href="https://www.youtube.com/watch?v=llkv7PTtQCE"><b>Watch</b></a></p></td>
+    <td><p>📜 <a href="00.Intro.01..Kicking.Things.Off/README.md"><b>Transcript</b></a></p></td>
+  </tr>
+</table>
+
 ## Installation
 
 <table>

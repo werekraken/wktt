@@ -1,6 +1,6 @@
 # Kicking Things Off [Vagrant: Development Environments Made Easy]
 
-https://www.youtube.com/watch?v=Gq2rquDr8js
+https://www.youtube.com/watch?v=llkv7PTtQCE
 
 ## Resources
 
