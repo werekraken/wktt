@@ -343,3 +343,17 @@
     <td><p>📜 <a href="06.Upgrade.05..Upgrading.Vagrant.Boxes/README.md"><b>Transcript</b></a></p></td>
   </tr>
 </table>
+
+## Outro
+
+<table>
+  <tr>
+    <td><p><b>1.</b></p></td>
+    <td><p><a href="https://www.youtube.com/watch?v=tkWsnt6yzh0">
+      <img alt="Watch on YouTube" src="https://img.youtube.com/vi/tkWsnt6yzh0/mqdefault.jpg" width="50%" />
+    </a></p></td>
+    <td><p><b>Wrapping Things Up</b></p></td>
+    <td><p>▶️ <a href="https://www.youtube.com/watch?v=tkWsnt6yzh0"><b>Watch</b></a></p></td>
+    <td><p>📜 <a href="07.Outro.01..Wrapping.Things.Up/README.md"><b>Transcript</b></a></p></td>
+  </tr>
+</table>

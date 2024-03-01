@@ -1,0 +1,93 @@
+1
+00:00:02,120 --> 00:00:05,750
+Adding a Vagrantfile, some provisioners,
+and few scripts to a project
+
+2
+00:00:05,751 --> 00:00:08,450
+can dramatically improve
+the development workflow.
+
+3
+00:00:10,570 --> 00:00:14,270
+Formalizing the environment in which
+development builds and tests take place
+
+4
+00:00:14,271 --> 00:00:18,510
+provides much needed consistency--
+and vagrant makes doing so easy.
+
+5
+00:00:20,240 --> 00:00:22,270
+With the vagrant basics
+we just walked through,
+
+6
+00:00:22,271 --> 00:00:25,540
+you should be ready to begin
+using vagrant in your own projects.
+
+7
+00:00:27,120 --> 00:00:30,660
+As you might expect, vagrant has
+many features we didn't cover here.
+
+8
+00:00:31,930 --> 00:00:34,030
+However, the topics covered
+should provide
+
+9
+00:00:34,031 --> 00:00:37,180
+a good foundational understanding
+upon which you can build.
+
+10
+00:00:38,900 --> 00:00:40,690
+Also, don't be afraid
+to use vagrant
+
+11
+00:00:40,691 --> 00:00:44,720
+to simplify the creation, use,
+and clean up of ad hoc environments.
+
+12
+00:00:46,090 --> 00:00:48,690
+Inside a vagrant managed machine,
+you can calmly run
+
+13
+00:00:48,691 --> 00:00:51,570
+that risky command
+that may damage the environment.
+
+14
+00:00:53,570 --> 00:00:57,030
+More importantly, you get to examine
+the results and learn something.
+
+15
+00:00:58,510 --> 00:01:01,060
+Then, you can blow that vm away
+and create a fresh one
+
+16
+00:01:01,061 --> 00:01:03,480
+in its place
+in almost no time.
+
+17
+00:01:05,150 --> 00:01:08,450
+Let me know in the comments
+if this info and format was helpful to you.
+
+18
+00:01:09,690 --> 00:01:11,720
+Like and subscribe
+as you see fit.
+
+19
+00:01:12,420 --> 00:01:13,660
+See ya next time.
